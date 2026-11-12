@@ -1,0 +1,4 @@
+/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/PartA/TaskA2/experiments/nonvirtual_destructor.cpp: In function ‘int main()’:
+/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/PartA/TaskA2/experiments/nonvirtual_destructor.cpp:18:5: warning: deleting object of abstract class type ‘Bill’ which has non-virtual destructor will cause undefined behavior [-Wdelete-non-virtual-dtor]
+   18 |     delete b;
+      |     ^~~~~~~~

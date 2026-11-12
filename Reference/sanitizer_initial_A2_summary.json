@@ -1,0 +1,134 @@
+[
+  {
+    "source": "PartA/TaskA2/predict_output.cpp",
+    "sha256": "4f8a515b1a2a5e937c9676696a7c0637ef6846b1b7b9d0f3cf04adee20d466f3",
+    "headers_sha256": {},
+    "timestamp_utc": "2026-11-12T14:52:18.780885+00:00",
+    "compile_command": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-g",
+      "-O1",
+      "-fsanitize=address",
+      "-fno-omit-frame-pointer",
+      "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/PartA/TaskA2/predict_output.cpp",
+      "-o",
+      "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/build/sanitizer/PartA_TaskA2_predict_output"
+    ],
+    "compile_exit": 0,
+    "expectation": "clean",
+    "expected_error_pattern": null,
+    "runner": "GitHub Actions Ubuntu 24.04",
+    "commit": "6f3505a31f54b8ade6b6b00d5725b926ad7d11a6",
+    "run_url": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-5/actions/runs/43241683493",
+    "run_command": [
+      "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/build/sanitizer/PartA_TaskA2_predict_output"
+    ],
+    "run_exit": 0,
+    "ASAN_OPTIONS": "detect_leaks=1:halt_on_error=1:alloc_dealloc_mismatch=1:new_delete_type_mismatch=1",
+    "status": "PASS"
+  },
+  {
+    "source": "PartA/TaskA2/layout_probe.cpp",
+    "sha256": "b3dae0c4da225e233c95afe0a198a42bb7e220ae348199af61118fae7f235e31",
+    "headers_sha256": {
+      "tools/checks.hpp": "41305e8577c46073bce3087490d172e99b7c7d24dc45f3c4934798f53fc5414a"
+    },
+    "timestamp_utc": "2026-11-12T14:52:19.099218+00:00",
+    "compile_command": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-g",
+      "-O1",
+      "-fsanitize=address",
+      "-fno-omit-frame-pointer",
+      "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/PartA/TaskA2/layout_probe.cpp",
+      "-o",
+      "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/build/sanitizer/PartA_TaskA2_layout_probe"
+    ],
+    "compile_exit": 0,
+    "expectation": "clean",
+    "expected_error_pattern": null,
+    "runner": "GitHub Actions Ubuntu 24.04",
+    "commit": "6f3505a31f54b8ade6b6b00d5725b926ad7d11a6",
+    "run_url": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-5/actions/runs/43241683493",
+    "run_command": [
+      "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/build/sanitizer/PartA_TaskA2_layout_probe"
+    ],
+    "run_exit": 0,
+    "ASAN_OPTIONS": "detect_leaks=1:halt_on_error=1:alloc_dealloc_mismatch=1:new_delete_type_mismatch=1",
+    "status": "PASS"
+  },
+  {
+    "source": "PartA/TaskA2/dynamic_cast_alternative.cpp",
+    "sha256": "8652fd2d20a0c2bb0310cdd74f5d3c3d7947371e4779bc1ffea6288c2e50d1d2",
+    "headers_sha256": {
+      "tools/checks.hpp": "41305e8577c46073bce3087490d172e99b7c7d24dc45f3c4934798f53fc5414a"
+    },
+    "timestamp_utc": "2026-11-12T14:52:19.352056+00:00",
+    "compile_command": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-g",
+      "-O1",
+      "-fsanitize=address",
+      "-fno-omit-frame-pointer",
+      "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/PartA/TaskA2/dynamic_cast_alternative.cpp",
+      "-o",
+      "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/build/sanitizer/PartA_TaskA2_dynamic_cast_alternative"
+    ],
+    "compile_exit": 0,
+    "expectation": "clean",
+    "expected_error_pattern": null,
+    "runner": "GitHub Actions Ubuntu 24.04",
+    "commit": "6f3505a31f54b8ade6b6b00d5725b926ad7d11a6",
+    "run_url": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-5/actions/runs/43241683493",
+    "run_command": [
+      "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/build/sanitizer/PartA_TaskA2_dynamic_cast_alternative"
+    ],
+    "run_exit": 0,
+    "ASAN_OPTIONS": "detect_leaks=1:halt_on_error=1:alloc_dealloc_mismatch=1:new_delete_type_mismatch=1",
+    "status": "PASS"
+  },
+  {
+    "source": "PartA/TaskA2/experiments/nonvirtual_destructor.cpp",
+    "sha256": "5c98db8bd6e98c855e875507b998d95443088f4c68301bcf5857cf6685ba2b47",
+    "headers_sha256": {},
+    "timestamp_utc": "2026-11-12T14:52:19.551794+00:00",
+    "compile_command": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-g",
+      "-O1",
+      "-fsanitize=address",
+      "-fno-omit-frame-pointer",
+      "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/PartA/TaskA2/experiments/nonvirtual_destructor.cpp",
+      "-o",
+      "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/build/sanitizer/PartA_TaskA2_experiments_nonvirtual_destructor"
+    ],
+    "compile_exit": 0,
+    "expectation": "undefined_observation",
+    "expected_error_pattern": null,
+    "runner": "GitHub Actions Ubuntu 24.04",
+    "commit": "6f3505a31f54b8ade6b6b00d5725b926ad7d11a6",
+    "run_url": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-5/actions/runs/43241683493",
+    "run_command": [
+      "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/build/sanitizer/PartA_TaskA2_experiments_nonvirtual_destructor"
+    ],
+    "run_exit": 0,
+    "ASAN_OPTIONS": "detect_leaks=1:halt_on_error=1:alloc_dealloc_mismatch=1:new_delete_type_mismatch=1",
+    "status": "OBSERVED: UB, no sanitizer diagnostic"
+  }
+]

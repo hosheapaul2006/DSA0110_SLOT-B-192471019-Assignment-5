@@ -8,6 +8,6 @@
 | 4 | Safe layout probe | Virtual total 500; actual ABI sizes/alignment printed | One check passed; sizeof/alignof both 8 on local compiler | PASS |
 | 5 | Manual RTTI dispatch | Static base totals 0, manual OP/IP totals 500/1000 | Two checks passed | PASS |
 | 6 | Unsupported manual-dispatch type | invalid_argument | Exception observed | PASS |
-| 7 | Isolated ASan controlled bad delete | Undefined behavior; diagnostic not guaranteed | Workflow execution not retrieved yet | PENDING |
+| 7 | Isolated ASan controlled bad delete | Undefined behavior; diagnostic not guaranteed | Ubuntu exit 0, stdout 500 ~Bill with final space/newline; sanitizer stderr empty, explicitly labelled UB observation | PASS |
 
 The original prediction was committed in 7c78d17 before first execution and is unchanged. Local records contain five runtime check evaluations plus two expected compiler-diagnostic checks. An observed silent UB case will be classified separately from clean safe executions.

@@ -1,0 +1,32 @@
+{
+  "source": "PartA/TaskA2/experiments/nonvirtual_destructor.cpp",
+  "sha256": "5c98db8bd6e98c855e875507b998d95443088f4c68301bcf5857cf6685ba2b47",
+  "headers_sha256": {},
+  "timestamp_utc": "2026-11-12T14:52:19.551794+00:00",
+  "compile_command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-g",
+    "-O1",
+    "-fsanitize=address",
+    "-fno-omit-frame-pointer",
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/PartA/TaskA2/experiments/nonvirtual_destructor.cpp",
+    "-o",
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/build/sanitizer/PartA_TaskA2_experiments_nonvirtual_destructor"
+  ],
+  "compile_exit": 0,
+  "expectation": "undefined_observation",
+  "expected_error_pattern": null,
+  "runner": "GitHub Actions Ubuntu 24.04",
+  "commit": "6f3505a31f54b8ade6b6b00d5725b926ad7d11a6",
+  "run_url": "https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-5/actions/runs/43241683493",
+  "run_command": [
+    "/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/build/sanitizer/PartA_TaskA2_experiments_nonvirtual_destructor"
+  ],
+  "run_exit": 0,
+  "ASAN_OPTIONS": "detect_leaks=1:halt_on_error=1:alloc_dealloc_mismatch=1:new_delete_type_mismatch=1",
+  "status": "OBSERVED: UB, no sanitizer diagnostic"
+}
