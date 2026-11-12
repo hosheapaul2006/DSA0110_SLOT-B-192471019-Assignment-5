@@ -1,0 +1,30 @@
+name: Isolated memory and exception verification
+on:
+  push:
+    paths:
+      - 'PartA/**/*.cpp'
+      - 'PartA/**/*.hpp'
+      - 'PartB/**/*.cpp'
+      - 'PartB/**/*.hpp'
+      - 'tools/checks.hpp'
+      - 'tools/verify.py'
+      - 'tools/sanitizers.py'
+      - '.github/workflows/memory.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sanitizers:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Fetch the exact public repository commit
+        shell: bash
+        run: |
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "${GITHUB_SHA}"
+          git checkout --detach FETCH_HEAD
+      - name: Execute isolated sanitizer cases and preserve original evidence
+        shell: bash
+        run: python3 tools/sanitizers.py

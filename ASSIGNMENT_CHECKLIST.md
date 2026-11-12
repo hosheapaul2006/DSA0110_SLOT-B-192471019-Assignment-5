@@ -12,16 +12,16 @@ Created from all 16 PDF pages and the current user prompt before implementation.
 | A1.04 | Pseudocode totals array of Bill pointers using runtime dispatch | [design](PartA/TaskA1/design.md), [UML](PartA/TaskA1/diagrams/hierarchy.md), [pseudocode](PartA/TaskA1/pseudocode.md) | PASS |
 | A1.05 | Switch/type-code alternative code or pseudocode | [design](PartA/TaskA1/design.md), [UML](PartA/TaskA1/diagrams/hierarchy.md), [pseudocode](PartA/TaskA1/pseudocode.md) | PASS |
 | A1.06 | O(n) processing per-object storage and extension-change analysis | [design](PartA/TaskA1/design.md), [UML](PartA/TaskA1/diagrams/hierarchy.md), [pseudocode](PartA/TaskA1/pseudocode.md) | PASS |
-| A2.01 | Early/static versus late/dynamic binding through Bill pointer | PartA/TaskA2/ | PENDING |
-| A2.02 | Conceptual vtable diagrams Bill OP IP with dispatch route | PartA/TaskA2/ | PENDING |
-| A2.03 | Vtables explicitly described as implementation technique, not mandated layout | PartA/TaskA2/ | PENDING |
-| A2.04 | Virtual destructor rationale and unsafe deletion consequences | PartA/TaskA2/ | PENDING |
-| A2.05 | Exact supplied source and prediction committed before first execution | PartA/TaskA2/ | PENDING |
-| A2.06 | Actual original output and exact comparison with immutable prediction | PartA/TaskA2/ | PENDING |
-| A2.07 | Nonvirtual destructor variation prediction saved before run | PartA/TaskA2/ | PENDING |
-| A2.08 | Retained destructor override actual compile error; controlled runnable UB variant disclosed | PartA/TaskA2/ | PENDING |
+| A2.01 | Early/static versus late/dynamic binding through Bill pointer | [analysis](PartA/TaskA2/explanation.md), [vtables](PartA/TaskA2/diagrams/conceptual_vtables.md), [tests](PartA/TaskA2/test_cases.md) | PASS |
+| A2.02 | Conceptual vtable diagrams Bill OP IP with dispatch route | [analysis](PartA/TaskA2/explanation.md), [vtables](PartA/TaskA2/diagrams/conceptual_vtables.md), [tests](PartA/TaskA2/test_cases.md) | PASS |
+| A2.03 | Vtables explicitly described as implementation technique, not mandated layout | [analysis](PartA/TaskA2/explanation.md), [vtables](PartA/TaskA2/diagrams/conceptual_vtables.md), [tests](PartA/TaskA2/test_cases.md) | PASS |
+| A2.04 | Virtual destructor rationale and unsafe deletion consequences | [analysis](PartA/TaskA2/explanation.md), [vtables](PartA/TaskA2/diagrams/conceptual_vtables.md), [tests](PartA/TaskA2/test_cases.md) | PASS |
+| A2.05 | Exact supplied source and prediction committed before first execution | [analysis](PartA/TaskA2/explanation.md), [vtables](PartA/TaskA2/diagrams/conceptual_vtables.md), [tests](PartA/TaskA2/test_cases.md) | PASS |
+| A2.06 | Actual original output and exact comparison with immutable prediction | [analysis](PartA/TaskA2/explanation.md), [vtables](PartA/TaskA2/diagrams/conceptual_vtables.md), [tests](PartA/TaskA2/test_cases.md) | PASS |
+| A2.07 | Nonvirtual destructor variation prediction saved before run | [analysis](PartA/TaskA2/explanation.md), [vtables](PartA/TaskA2/diagrams/conceptual_vtables.md), [tests](PartA/TaskA2/test_cases.md) | PASS |
+| A2.08 | Retained destructor override actual compile error; controlled runnable UB variant disclosed | [analysis](PartA/TaskA2/explanation.md), [vtables](PartA/TaskA2/diagrams/conceptual_vtables.md), [tests](PartA/TaskA2/test_cases.md) | PASS |
 | A2.09 | Actual ASan observation; silent UB never called safe | PartA/TaskA2/ | PENDING |
-| A2.10 | dynamic_cast alternative and up-to-k type testing/time/space comparison | PartA/TaskA2/ | PENDING |
+| A2.10 | dynamic_cast alternative and up-to-k type testing/time/space comparison | [analysis](PartA/TaskA2/explanation.md), [vtables](PartA/TaskA2/diagrams/conceptual_vtables.md), [tests](PartA/TaskA2/test_cases.md) | PASS |
 | A3.01 | Abstract Payer amountCovered(const Bill&) interface and responsibilities | PartA/TaskA3/ | PENDING |
 | A3.02 | SelfPay Insurance GovernmentScheme policy data and documented semantics | PartA/TaskA3/ | PENDING |
 | A3.03 | Coverage limit co-payment patient contribution and rejection handling | PartA/TaskA3/ | PENDING |

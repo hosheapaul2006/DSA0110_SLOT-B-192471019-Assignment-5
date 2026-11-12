@@ -1,0 +1,4 @@
+CHECK|manual RTTI selects concrete nonvirtual total|PASS
+CHECK|manual RTTI selects concrete nonvirtual total|PASS
+CHECK|unregistered type rejected|PASS
+TEST_COUNT 3

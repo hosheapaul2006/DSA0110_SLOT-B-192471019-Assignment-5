@@ -1,0 +1,2 @@
+Base nonvirtual=0 manual=500
+Base nonvirtual=0 manual=1000

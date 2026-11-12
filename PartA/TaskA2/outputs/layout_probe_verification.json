@@ -1,0 +1,31 @@
+{
+  "source": "PartA/TaskA2/layout_probe.cpp",
+  "sha256": "b3dae0c4da225e233c95afe0a198a42bb7e220ae348199af61118fae7f235e31",
+  "timestamp_utc": "2026-11-12T14:50:18.286389+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\PartA\\TaskA2\\layout_probe.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartA\\TaskA2\\layout_probe.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 1,
+  "tag": null,
+  "headers_sha256": {
+    "tools/checks.hpp": "41305e8577c46073bce3087490d172e99b7c7d24dc45f3c4934798f53fc5414a"
+  },
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartA\\TaskA2\\layout_probe.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

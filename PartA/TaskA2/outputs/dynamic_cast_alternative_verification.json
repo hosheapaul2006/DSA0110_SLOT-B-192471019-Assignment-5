@@ -1,0 +1,31 @@
+{
+  "source": "PartA/TaskA2/dynamic_cast_alternative.cpp",
+  "sha256": "8652fd2d20a0c2bb0310cdd74f5d3c3d7947371e4779bc1ffea6288c2e50d1d2",
+  "timestamp_utc": "2026-11-12T14:50:18.978687+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\PartA\\TaskA2\\dynamic_cast_alternative.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartA\\TaskA2\\dynamic_cast_alternative.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 3,
+  "tag": null,
+  "headers_sha256": {
+    "tools/checks.hpp": "41305e8577c46073bce3087490d172e99b7c7d24dc45f3c4934798f53fc5414a"
+  },
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartA\\TaskA2\\dynamic_cast_alternative.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

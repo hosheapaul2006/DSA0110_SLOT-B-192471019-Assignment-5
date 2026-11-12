@@ -1,0 +1,24 @@
+{
+  "source": "PartA/TaskA2/experiments/destructor_keyword_only.cpp",
+  "sha256": "6d8f1293a66ebf857b04e9b8e91f83155b72e5184af3427b6a15f4371d2168ff",
+  "timestamp_utc": "2026-11-12T14:49:59.625303+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\PartA\\TaskA2\\experiments\\destructor_keyword_only.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartA\\TaskA2\\experiments_destructor_keyword_only.exe"
+  ],
+  "compile_exit": 1,
+  "expected_diagnostic": "error",
+  "compile_only": false,
+  "test_count": 1,
+  "tag": null,
+  "headers_sha256": {},
+  "status": "PASS: expected compiler error"
+}
