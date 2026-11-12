@@ -1,0 +1,33 @@
+{
+  "source": "PartB/TaskB3/validation_benchmark.cpp",
+  "sha256": "febb7bc1d7945a5c591a76b2862e4e67b9896309fee92c07fb8af2ed5fe5c5b3",
+  "timestamp_utc": "2026-11-12T15:27:51.846622+00:00",
+  "optimization": "-O2",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O2",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\PartB\\TaskB3\\validation_benchmark.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB3\\validation_benchmark_O2.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 60,
+  "tag": null,
+  "headers_sha256": {
+    "PartB/TaskB2/validation.hpp": "fe9e2d9a9a504435518d8c472ec9f96c9bcdf9fafb10d32325ef6addafe89686",
+    "PartB/TaskB1/errors.hpp": "320fad4544510478ef0b66ed31a1f6ec81437c9f528c0b149d9c37530df0079b",
+    "tools/checks.hpp": "41305e8577c46073bce3087490d172e99b7c7d24dc45f3c4934798f53fc5414a"
+  },
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB3\\validation_benchmark_O2.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

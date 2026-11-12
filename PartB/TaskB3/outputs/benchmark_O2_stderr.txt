@@ -1,0 +1,52 @@
+CHECK|benchmark payload within memory budget|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|all working-set objects released between sizes|PASS
+CHECK|benchmark payload within memory budget|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|all working-set objects released between sizes|PASS
+CHECK|benchmark payload within memory budget|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|large dispatch checksum equals independent fixture calculation|PASS
+CHECK|all working-set objects released between sizes|PASS
+TEST_COUNT 51

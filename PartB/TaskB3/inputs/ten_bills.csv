@@ -1,0 +1,11 @@
+index,type,embedded_charges,independent_expected_total
+0,OP,consultation500;tests1200,1700
+1,IP,days3;perDay2500;procedures40000;medicines2500,50000
+2,DayCare,package25000,25000
+3,Emergency,base3000;hours4;hourly2000,11000
+4,OP,consultation1000;tests3000,4000
+5,IP,days1;perDay1000;procedures5000;medicines1000,7000
+6,DayCare,package10000,10000
+7,Emergency,base1000;hours2.5;hourly1000,3500
+8,OP,consultation0;tests0,0
+9,IP,days2;perDay2000;procedures0;medicines500,4500

@@ -1,0 +1,54 @@
+CHECK|no initial dispatch objects|PASS
+CHECK|ten-bill virtual matches hand calculation|PASS
+CHECK|ten-bill switch matches hand calculation|PASS
+CHECK|ten-bill variant matches hand calculation|PASS
+CHECK|ten-bill virtual matches hand calculation|PASS
+CHECK|ten-bill switch matches hand calculation|PASS
+CHECK|ten-bill variant matches hand calculation|PASS
+CHECK|ten-bill virtual matches hand calculation|PASS
+CHECK|ten-bill switch matches hand calculation|PASS
+CHECK|ten-bill variant matches hand calculation|PASS
+CHECK|ten-bill virtual matches hand calculation|PASS
+CHECK|ten-bill switch matches hand calculation|PASS
+CHECK|ten-bill variant matches hand calculation|PASS
+CHECK|ten-bill virtual matches hand calculation|PASS
+CHECK|ten-bill switch matches hand calculation|PASS
+CHECK|ten-bill variant matches hand calculation|PASS
+CHECK|ten-bill virtual matches hand calculation|PASS
+CHECK|ten-bill switch matches hand calculation|PASS
+CHECK|ten-bill variant matches hand calculation|PASS
+CHECK|ten-bill virtual matches hand calculation|PASS
+CHECK|ten-bill switch matches hand calculation|PASS
+CHECK|ten-bill variant matches hand calculation|PASS
+CHECK|ten-bill virtual matches hand calculation|PASS
+CHECK|ten-bill switch matches hand calculation|PASS
+CHECK|ten-bill variant matches hand calculation|PASS
+CHECK|ten-bill virtual matches hand calculation|PASS
+CHECK|ten-bill switch matches hand calculation|PASS
+CHECK|ten-bill variant matches hand calculation|PASS
+CHECK|ten-bill virtual matches hand calculation|PASS
+CHECK|ten-bill switch matches hand calculation|PASS
+CHECK|ten-bill variant matches hand calculation|PASS
+CHECK|independent ten-bill sum|PASS
+CHECK|each design totals ten bills|PASS
+CHECK|full/partial replay batches preserve checksum|PASS
+CHECK|zero logical records|PASS
+CHECK|each design totals ten bills|PASS
+CHECK|full/partial replay batches preserve checksum|PASS
+CHECK|zero logical records|PASS
+CHECK|each design totals ten bills|PASS
+CHECK|full/partial replay batches preserve checksum|PASS
+CHECK|zero logical records|PASS
+CHECK|dataset index bounds|PASS
+CHECK|invalid dispatch tag|PASS
+CHECK|all virtual and variant objects destroyed|PASS
+CHECK|bounded working-set guard|PASS
+CHECK|bounded working-set guard|PASS
+CHECK|invalid tagged charge rejected|PASS
+CHECK|unknown bill type rejected|PASS
+CHECK|all designs normalize individual paise components identically|PASS
+CHECK|all designs normalize individual paise components identically|PASS
+CHECK|all designs normalize individual paise components identically|PASS
+CHECK|all designs normalize individual paise components identically|PASS
+CHECK|fractional-model objects cleaned|PASS
+TEST_COUNT 53

@@ -1,0 +1,22 @@
+{
+  "logical_bills": [
+    1000,
+    1000000,
+    10000000
+  ],
+  "maximum_working_set": 65536,
+  "payload_budget_bytes": 67108864,
+  "trials": 5,
+  "method_order": "rotated each trial",
+  "within_working_set_adjustment": "(inputIndex/10 integer division) modulo97, added to one charge component",
+  "logical_stream": "repeat full/partial bounded working set; no claim of10M distinct resident objects",
+  "validation_claims": 1000000,
+  "invalid_percent": [
+    0,
+    1,
+    50
+  ],
+  "validation_seed": "192471019 + percentage",
+  "timed": "traversal/calculation/dispatch or validation, plus one observable checksum store",
+  "excluded": "construction/input generation/allocation/destruction/logging/assertions"
+}
