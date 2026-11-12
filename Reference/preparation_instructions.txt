@@ -1,0 +1,1300 @@
+# CODEX MASTER PROMPT — DSA0110 ASSIGNMENT 5 (CO5)
+
+## 1. ROLE AND OBJECTIVE
+
+Act as an experienced C++17 software engineer, object-oriented programming specialist, testing engineer, and GitHub repository manager.
+
+Your objective is to complete every requirement in the attached **Assignment 5 – CO5: Reliable Software with Runtime Polymorphism and Exceptions** PDF.
+
+The assignment contains nine tasks organized into two parts:
+
+- **Part A — Design:** A1, A2, A3, A4, A5 (25 marks)
+- **Part B — Implementation and Experimental Investigation:** B1, B2, B3, B4 (25 marks)
+
+Total: 50 marks.
+
+Read the entire PDF before doing anything else.
+
+Follow this engineering workflow:
+
+**Understand → Abstract → Design → Implement → Break → Measure → Interpret**
+
+The goal is a reliable, correct, well-tested, well-organized C++17 GitHub submission with authentic execution evidence.
+
+### Student information
+
+Name: D Hoshea Paul
+
+Register Number: 192471019
+
+Course: DSA0110 — Object Oriented Programming with C++
+
+Slot: B
+
+Assignment: 5
+
+Course Outcome: CO5
+
+Programming language: C++17
+
+### Existing GitHub repository
+
+https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-5
+
+Clone and use this exact existing repository.
+
+Do not create a new repository or rename this repository without approval.
+
+The repository currently exists and is empty.
+
+The PDF specifies the naming convention `DSA01-<RegisterNumber>-Assignment5`. Flag the naming difference for review without changing my repository.
+
+---
+
+# 2. CRITICAL FACULTY INSTRUCTION — NO REPORT
+
+**DO NOT CREATE AN ASSIGNMENT REPORT.**
+
+This instruction supersedes previous report-generation instructions.
+
+Specifically:
+
+- No PDF report
+- No Word report
+- No consolidated Markdown report
+- No Report folder
+- No report cover page
+- No combined assignment document
+- No report attachment for Google Classroom
+
+All required explanations, pseudocode, UML diagrams, experimental interpretations, test cases, actual outputs, complexity analyses, and screenshots must be stored directly in their corresponding task folders.
+
+The GitHub repository is the primary deliverable.
+
+The attached PDF mentions a report. Record this discrepancy in the final checklist, but follow my updated faculty instruction to omit the report.
+
+A README and task-specific technical explanations are still required.
+
+---
+
+# 3. STRICT C++ AND EXECUTION REQUIREMENTS
+
+Every assignment implementation must use C++17.
+
+Compile all valid programs with:
+
+```bash
+g++ -std=c++17 -Wall -Wextra -Wpedantic main.cpp -o main
+```
+
+Record the actual compiler version using:
+
+```bash
+g++ --version
+```
+
+Run all valid programs and compare their outputs with expected results.
+
+Do not claim success solely because code compiles.
+
+For each required experiment, preserve:
+
+1. Source code
+2. Actual input
+3. Expected output
+4. Actual output
+5. Compiler command
+6. Execution result
+7. Explanation of observed behavior
+8. Genuine execution screenshots where applicable
+
+Use separate source files for intentionally incorrect programs.
+
+Do not modify correct implementations merely to reproduce undefined behavior in the main program.
+
+---
+
+# 4. PROGRAMIZ EXECUTION — HIGHEST PRIORITY
+
+**PRIMARY ONLINE COMPILER:**
+
+https://www.programiz.com/cpp-programming/online-compiler/
+
+All suitable assignment programs must be executed on Programiz when browser-control capabilities are available.
+
+The screenshots are mandatory evidence and must be exceptionally clear.
+
+## 4.1 Required screenshot workflow
+
+For every suitable executable:
+
+1. Open the real Programiz C++ online compiler in a browser.
+2. Paste the exact C++ source code being tested.
+3. Set up any required input.
+4. Click the real Run button.
+5. Confirm that execution completes successfully.
+6. Check that the output matches the expected output.
+7. Capture a genuine screenshot from the actual browser.
+8. Save it in the corresponding task's `screenshots/` folder.
+9. Record the screenshot filename and what it proves.
+
+Use real browser screenshots, not generated imitations.
+
+## 4.2 Screenshot quality standards
+
+Every screenshot must satisfy these requirements:
+
+**Resolution**
+
+- Prefer native screenshots at 1920 × 1080 or higher when available.
+- Avoid low-resolution screenshots.
+- Do not upscale a small screenshot to imitate high resolution.
+
+**Readability**
+
+- C++ source must be clearly readable.
+- The output must be clearly readable.
+- Avoid tiny fonts.
+- Use a comfortable editor font size, approximately 16–18 pixels where supported.
+- Use suitable browser zoom and editor/console sizing.
+- Ensure critical code is not hidden behind menus or panels.
+
+**Framing**
+
+Where possible, show:
+
+- Programiz C++ interface
+- Relevant code
+- Run button
+- Actual output console
+- Enough surrounding interface to establish screenshot authenticity
+
+Avoid unnecessary tabs, browser clutter, pop-ups, and obstructing UI.
+
+**Long programs**
+
+Do not shrink a 150-line program until the text is unreadable.
+
+Instead:
+
+- Capture multiple screenshots.
+- Show the relevant source sections.
+- Keep the execution output clearly visible.
+- Capture additional screenshots of remaining code when needed.
+
+**Long outputs**
+
+If the console output extends beyond the visible area, take multiple genuine screenshots using scrolling.
+
+Do not omit failing or unexpected output.
+
+## 4.3 Screenshot naming convention
+
+Use descriptive filenames such as:
+
+```text
+TaskA2/screenshots/A2_virtual_dispatch.png
+TaskA2/screenshots/A2_destructor_output.png
+
+TaskB1/screenshots/B1_outpatient_bill.png
+TaskB1/screenshots/B1_inpatient_bill.png
+TaskB1/screenshots/B1_daycare_bill.png
+TaskB1/screenshots/B1_emergency_bill.png
+
+TaskB2/screenshots/B2_negative_charge.png
+TaskB2/screenshots/B2_claim_rejected.png
+TaskB2/screenshots/B2_exception_rethrow.png
+
+TaskB4/screenshots/B4_new_bill_type.png
+TaskB4/screenshots/B4_new_payer.png
+```
+
+These are example names, not a claim that the screenshots already exist.
+
+For large benchmark experiments, Programiz screenshots may demonstrate a smaller equivalent functional case, while actual large-scale benchmark measurements must come from local optimized C++ execution.
+
+## 4.4 Screenshot integrity
+
+Never:
+
+- Generate a fake Programiz screenshot.
+- Recreate Programiz using HTML or CSS.
+- Place typed output over an image.
+- Hide compiler errors.
+- Alter source text in an existing screenshot.
+- Use screenshots taken from unrelated programs.
+- Claim local terminal screenshots came from Programiz.
+- Report an online execution that did not occur.
+
+If browser control is unavailable, mark the affected Programiz evidence **PENDING**, perform local execution, and provide clear instructions for manual screenshot capture.
+
+**Do not treat synthetic screenshots as an acceptable fallback.**
+
+---
+
+# 5. LOCAL TESTING AND ADDRESSSANITIZER
+
+The PDF specifically requires AddressSanitizer and performance experiments.
+
+Use local g++ for these.
+
+AddressSanitizer compilation:
+
+```bash
+g++ -std=c++17 -Wall -Wextra -g -O1 -fsanitize=address -fno-omit-frame-pointer main.cpp -o main_asan
+```
+
+Enable leak detection where supported.
+
+For performance experiments:
+
+```bash
+g++ -std=c++17 -O2 benchmark.cpp -o benchmark
+```
+
+Save actual diagnostic logs and timings.
+
+Do not fabricate sanitizer reports.
+
+For intentionally unsafe examples, record the result in a separate experimental folder and label expected undefined behavior explicitly.
+
+Do not run dangerous memory-exhaustion tests without safeguards.
+
+---
+
+# 6. REPOSITORY STRUCTURE
+
+Use the following structure:
+
+```text
+DSA0110_SLOT-B-192471019-Assignment-5/
+│
+├── README.md
+├── ASSIGNMENT_CHECKLIST.md
+├── .gitignore
+│
+├── PartA/
+│   ├── TaskA1/
+│   │   ├── design.md
+│   │   ├── pseudocode.md
+│   │   ├── diagrams/
+│   │   ├── outputs/
+│   │   └── screenshots/
+│   │
+│   ├── TaskA2/
+│   │   ├── predict_output.cpp
+│   │   ├── explanation.md
+│   │   ├── diagrams/
+│   │   ├── outputs/
+│   │   └── screenshots/
+│   │
+│   ├── TaskA3/
+│   │   ├── design.md
+│   │   ├── pseudocode.md
+│   │   ├── diagrams/
+│   │   ├── outputs/
+│   │   └── screenshots/
+│   │
+│   ├── TaskA4/
+│   │   ├── exception_strategy.md
+│   │   ├── diagrams/
+│   │   └── outputs/
+│   │
+│   └── TaskA5/
+│       ├── predict_output.cpp
+│       ├── recovery_design.md
+│       ├── pseudocode.md
+│       ├── outputs/
+│       └── screenshots/
+│
+├── PartB/
+│   ├── TaskB1/
+│   │   ├── main.cpp
+│   │   ├── complete_code.cpp
+│   │   ├── experiments/
+│   │   ├── test_cases.md
+│   │   ├── explanation.md
+│   │   ├── outputs/
+│   │   └── screenshots/
+│   │
+│   ├── TaskB2/
+│   │   ├── main.cpp
+│   │   ├── complete_code.cpp
+│   │   ├── predict_output.cpp
+│   │   ├── experiments/
+│   │   ├── test_cases.md
+│   │   ├── explanation.md
+│   │   ├── outputs/
+│   │   └── screenshots/
+│   │
+│   ├── TaskB3/
+│   │   ├── main.cpp
+│   │   ├── benchmark.cpp
+│   │   ├── test_cases.md
+│   │   ├── comparison.md
+│   │   ├── outputs/
+│   │   └── screenshots/
+│   │
+│   └── TaskB4/
+│       ├── main.cpp
+│       ├── extension.cpp
+│       ├── test_cases.md
+│       ├── engineering_decision.md
+│       ├── outputs/
+│       └── screenshots/
+```
+
+Add files when necessary.
+
+Use Markdown for task-specific conceptual material, not a combined assignment report.
+
+Do not create a Report folder.
+
+---
+
+# 7. PART A — DESIGN (25 MARKS)
+
+## TASK A1 — DESIGN THE POLYMORPHIC BILL HIERARCHY
+### 7 Marks
+
+**Scenario: Hospital Billing and Insurance Claims**
+
+### A1.1 — Common Interface
+
+Identify the common data and operations required by every hospital bill.
+
+Include:
+
+- Patient information
+- Bill identifier where appropriate
+- Total calculation
+- Bill type
+- Printing
+- Appropriate destruction behavior
+
+Explain why these should belong in a shared interface.
+
+### A1.2 — Hierarchy
+
+Design an abstract `Bill` class.
+
+Use pure virtual functions.
+
+Implement a UML design containing:
+
+- Bill
+- OutPatientBill
+- InPatientBill
+- DayCareBill
+- EmergencyBill
+
+Model the charges described in the PDF:
+
+- Outpatient: consultation and tests
+- Inpatient: room charges, procedures and medicines
+- Day care: package price
+- Emergency: base charge plus time-based charges
+
+Identify virtual, pure virtual and overridden methods.
+
+Use a virtual destructor.
+
+Prepare a proper UML class diagram.
+
+### A1.3 — Polymorphic Processing
+
+Write pseudocode for computing the total of the day's bills using an array of base-class pointers.
+
+Use runtime polymorphism rather than manual type checking in the main design.
+
+### Alternative Concept
+
+Compare the abstract hierarchy with one Bill structure containing a type field and a switch statement.
+
+Analyze:
+
+- O(n) processing time
+- Per-object memory
+- Runtime dispatch
+- Extensibility
+- Code that must change when new bill types are added
+
+**Important:** Part A requires design reasoning and pseudocode. C++ code must not replace the requested pseudocode.
+
+Save the UML, pseudocode, and reasoning in TaskA1.
+
+---
+
+## TASK A2 — UNDERSTAND RUNTIME BINDING
+### 5 Marks
+
+### A2.1 — Early and Late Binding
+
+Explain compile-time binding and runtime binding.
+
+Demonstrate how calls through a Bill pointer select the correct derived implementation.
+
+### A2.2 — Virtual Table
+
+Draw conceptual virtual-table diagrams for:
+
+- Bill
+- OutPatientBill
+- InPatientBill
+
+Explain how `b->total()` resolves to the appropriate implementation.
+
+State that vtables are a common implementation technique and not a memory layout mandated by the C++ standard.
+
+### A2.3 — Virtual Destructors
+
+Explain why a polymorphic Bill class needs a virtual destructor.
+
+### Predict the Output
+
+Use the exact Bill / OPBill program supplied in the PDF.
+
+Before execution:
+
+1. Reason through the source.
+2. Write the exact output.
+3. Save the prediction.
+4. Commit it.
+5. Execute the source.
+6. Compare the actual output.
+
+Then remove the virtual destructor in an isolated experimental version.
+
+Predict the change.
+
+Compile with AddressSanitizer.
+
+Record the actual behavior.
+
+Explain why deleting a derived object through a base pointer with a non-virtual destructor is undefined behavior.
+
+Do not claim the behavior is reliable simply because a particular run produces output.
+
+### Alternative Concept
+
+Compare virtual dispatch with manual runtime type testing using `dynamic_cast`.
+
+Analyze the possible cost of testing up to k derived types and the per-object memory considerations.
+
+---
+
+## TASK A3 — DESIGN WITH ABSTRACT CLASSES
+### 5 Marks
+
+### A3.1 — Payer Interface
+
+Design abstract class `Payer`.
+
+Include pure virtual:
+
+`amountCovered(const Bill&)`
+
+Implement the design for:
+
+- SelfPay
+- Insurance
+- GovernmentScheme
+
+Insurance must account for the coverage limit and co-payment percentage.
+
+GovernmentScheme must support fixed package rates.
+
+Define clear semantics for coverage, patient contribution, and rejected claims.
+
+Do not assume unspecified reimbursement policies.
+
+Use explicit, documented illustrative values where the PDF provides no rates.
+
+### A3.2 — Extension
+
+Demonstrate how a new CorporatePayer can be introduced without modifying existing payer-class implementations.
+
+Provide the appropriate hierarchy diagram.
+
+### Alternative Concept
+
+Compare:
+
+- Abstract Payer class
+- Function pointers
+- `std::function`
+
+Analyze:
+
+- O(1) invocation for fixed policies
+- Space usage
+- Captured state
+- Coverage-limit storage
+- Ease of extending payer behavior
+
+---
+
+## TASK A4 — DESIGN THE EXCEPTION STRATEGY
+### 4 Marks
+
+### A4.1 — Identify Errors
+
+Design exception handling for:
+
+- Negative charges
+- Claim exceeding cover
+- Unknown package codes
+- Missing patient records
+- Memory allocation failure
+
+Create a conceptual exception hierarchy derived from `std::exception`.
+
+Include suitable classes such as:
+
+- BillingError
+- ClaimError
+- ValidationError
+- PackageError
+
+Choose sensible inheritance and meaningful error messages.
+
+### A4.2 — Exception Specifications
+
+Identify functions that may throw.
+
+Identify functions that must not throw.
+
+Use `noexcept` appropriately.
+
+Explain why destructors should not throw during stack unwinding.
+
+Discuss the role of standard exceptions such as:
+
+- `std::invalid_argument`
+- `std::out_of_range`
+- `std::bad_alloc`
+
+### Alternative Concept
+
+Compare exceptions with status codes or boolean returns.
+
+Analyze normal-path overhead, exceptional-path overhead, error propagation and code maintainability.
+
+Save exception diagrams, design decisions and explanations in TaskA4.
+
+---
+
+## TASK A5 — DESIGN RECOVERY AND RETHROWING
+### 4 Marks
+
+### A5.1 — Catching and Rethrowing
+
+Design a strategy specifying:
+
+- Where validation occurs
+- Where exceptions are caught
+- Where failures are logged
+- Where `throw;` is used
+- Where errors are finally reported to users
+
+Distinguish recovering from an error versus merely logging and propagating it.
+
+### A5.2 — Resource Safety
+
+Explain:
+
+- Stack unwinding
+- Destructor invocation
+- RAII
+- `std::unique_ptr`
+- Automatic cleanup
+- File and memory resource management
+
+### Predict the Output
+
+Use the exact Guard example supplied in the PDF.
+
+Write the prediction before execution.
+
+Save and commit it.
+
+Execute the original program.
+
+Explain destructor order and why the statement after the throwing function is not executed.
+
+### Alternative Concept
+
+Compare RAII-based cleanup with manually placing `delete` operations inside multiple catch blocks.
+
+Explain leak risks, code complexity and maintainability.
+
+---
+
+# 8. PART B — IMPLEMENTATION AND EXPERIMENTS (25 MARKS)
+
+## TASK B1 — IMPLEMENT AND VALIDATE POLYMORPHIC BILLING
+### 7 Marks
+
+### B1.1 — Implementation
+
+Implement the Bill and Payer hierarchies developed in Part A.
+
+Use C++17.
+
+Implement all four required bill categories.
+
+Test every bill category with every required payer.
+
+For each test, record:
+
+- Bill type
+- Input amounts
+- Calculated bill total
+- Payer type
+- Covered amount
+- Patient contribution
+- Expected result
+- Actual result
+
+Verify representative totals manually.
+
+### B1.2 — Design Comparison
+
+Compare implementation against Part A.
+
+Explain any changes from the original design.
+
+### B1.3 — Runtime Binding Experiment
+
+Investigate what happens when virtual dispatch is removed.
+
+Important: A pure virtual function remains virtual even when the explicit `virtual` keyword is omitted if `= 0` remains.
+
+Therefore distinguish:
+
+- Removing only the `virtual` keyword
+- Replacing the pure virtual declaration with a genuinely non-virtual function
+- Leaving `override` on derived methods
+- Removing `override` where necessary for the controlled experiment
+
+Record actual compiler diagnostics and behavior.
+
+Do not falsely claim that deleting the keyword alone disables runtime polymorphism.
+
+### B1.4 — Virtual Destructor Experiment
+
+Remove the virtual destructor in a separate unsafe test.
+
+Run it with AddressSanitizer.
+
+Capture real diagnostics.
+
+Explain the consequences and repair the implementation.
+
+### Complete the Code
+
+Copy the supplied Bill / OutPatient / InPatient program.
+
+Complete TODO 1, TODO 2 and TODO 3.
+
+Preserve the rest of the supplied program.
+
+Verify the expected output:
+
+```text
+OP Ravi: 1700
+IP Meena: 47500
+Total 49200
+```
+
+Then investigate the PDF's requested variation where virtual dispatch is removed, recording actual compiler errors or behavior.
+
+### Alternative Concept
+
+Compare runtime polymorphism against compile-time template-based processing.
+
+Explain:
+
+- Runtime dispatch
+- Compile-time dispatch
+- Mixed bill collections
+- Separate containers by bill type
+- Time complexity
+- Memory implications
+
+Capture clear Programiz screenshots of the main successful execution.
+
+---
+
+## TASK B2 — ENGINEER ERROR CONDITIONS
+### 5 Marks
+
+Create controlled tests for:
+
+1. Negative charges
+2. Claims above coverage
+3. Unknown package codes
+4. Invalid numeric text using `std::stod`
+5. Allocation failure
+6. Catch-all exception handling
+7. Destruction during stack unwinding
+
+### Allocation failure
+
+Demonstrate handling of `std::bad_alloc`.
+
+Because operating systems may overcommit memory, do not assume an enormous allocation reliably produces `bad_alloc`.
+
+Use a safe, controlled allocation-failure test where appropriate.
+
+Clearly distinguish an injected failure from a genuine allocation failure.
+
+Do not risk exhausting the machine's memory.
+
+### Predict the Output
+
+Use the exact `validate()` / `process()` program from the PDF.
+
+Before execution:
+
+- Predict output exactly.
+- Save the prediction.
+- Commit it.
+- Compile and run.
+- Compare observations.
+- Explain each exception handler and rethrow.
+
+### Complete the Code
+
+Use the exact supplied `ClaimError`, `approve()` and `settle()` program.
+
+Complete TODO 1 and TODO 2.
+
+Verify the expected output:
+
+```text
+approved 40000
+audit: exceeds cover
+claim rejected: exceeds cover
+error: negative amount
+```
+
+### Rethrowing Experiment
+
+Compare:
+
+`throw;`
+
+against:
+
+`throw e;`
+
+Explain that `throw;` rethrows the existing exception object, while `throw e;` throws a copy and can cause slicing if caught through a base-class type.
+
+Do not incorrectly claim that both always change the exception's dynamic type in the same way.
+
+### Alternative Concept
+
+Compare exception-based rejection against:
+
+`std::optional<double>`
+
+Benchmark 1,000,000 claims with:
+
+- 0% invalid
+- 1% invalid
+- 50% invalid
+
+Measure actual execution time.
+
+Preserve real results.
+
+Explain what the tests demonstrate.
+
+Save genuine Programiz screenshots for the functional exception-handling tests.
+
+---
+
+## TASK B3 — VIRTUAL FUNCTIONS VS SWITCH VS EXCEPTIONS
+### 8 Marks
+
+This task requires actual experiments and measurements.
+
+### B3.1 — Correctness
+
+Create the same 10 hospital bills.
+
+Process them using:
+
+1. Virtual functions
+2. A type field and switch statement
+
+Verify that both produce identical totals.
+
+### B3.2 — Scaling
+
+Benchmark both designs using:
+
+- 1,000 bills
+- 1,000,000 bills
+- 10,000,000 bills
+
+Compile using `-O2`.
+
+Use equivalent workloads.
+
+Record the actual time for each version.
+
+Run repeated trials where practical.
+
+Report consistent units and summarize results using a reproducible method, such as median timings.
+
+### B3.3 — Cost of Exceptions
+
+Validate 1,000,000 bills using:
+
+1. Return codes
+2. Exceptions
+
+Use:
+
+- 0% invalid bills
+- 1% invalid bills
+- 50% invalid bills
+
+Record actual execution times.
+
+Ensure the benchmark performs meaningful work that cannot simply be optimized away.
+
+### B3.4 — Engineering Trade-off
+
+Evaluate the results.
+
+Explain:
+
+- Runtime polymorphism overhead
+- Branching costs
+- Exception handling costs
+- Memory overhead
+- Maintainability
+- Extensibility
+- Whether observed results support theoretical expectations
+
+Do not invent benchmark results.
+
+### Alternative Concept
+
+Implement or evaluate:
+
+`std::variant` with `std::visit`
+
+Compare it with virtual functions and switch-based dispatch for 10,000,000 bills.
+
+Analyze:
+
+- Time complexity
+- Storage requirements
+- Largest-alternative storage
+- Tag overhead
+- Ease of adding new bill types
+
+The large performance experiments should be performed locally using g++.
+
+Programiz should be used for clear functional execution demonstrations, not as a substitute for controlled large-scale measurements.
+
+---
+
+## TASK B4 — FINAL ENGINEERING DECISION
+### 5 Marks
+
+**Scenario: Fifteen hospitals, 200,000 bills per day, new bill types and payers every year.**
+
+### B4.1 — Extend the System
+
+Add:
+
+- One new bill type
+- One new payer
+
+The new classes must integrate without modifying existing bill or payer class implementations.
+
+Demonstrate the extension with actual execution.
+
+Rerun earlier tests and confirm that existing functionality remains correct.
+
+### B4.2 — Resource Safety
+
+Run the extended application under AddressSanitizer.
+
+Include a test where exceptions are thrown and caught.
+
+Verify correct cleanup.
+
+Preserve the real sanitizer output.
+
+Do not claim a clean report if any issues remain.
+
+### B4.3 — Engineering Decision
+
+Use actual Part B measurements to determine whether polymorphism and exceptions are appropriate for the hospital group.
+
+Discuss:
+
+- Performance
+- Maintainability
+- Adding new bill types
+- Adding new payers
+- Resource safety
+- Error handling
+- Production trade-offs
+
+### Alternative Concept
+
+Compare extending the system through new C++ classes with configuration-driven plug-in or rule-based approaches.
+
+Analyze:
+
+- Runtime rule interpretation
+- Virtual call overhead
+- Rule storage
+- Deployment complexity
+- Risk of changing business rules
+- Testing requirements
+- Future extensibility
+
+Save the engineering decision in TaskB4, not in a separate report.
+
+Capture genuine Programiz screenshots proving the new bill type and payer execute successfully.
+
+---
+
+# 9. PREDICTION-BEFORE-EXECUTION PROTOCOL
+
+The PDF requires output predictions.
+
+Apply this procedure to:
+
+- A2
+- A5
+- B2
+
+Also follow it for any additional explicitly requested prediction.
+
+### Phase 1 — Before execution
+
+1. Inspect the exact code.
+2. Reason through execution.
+3. Write the exact predicted output.
+4. Save it in `prediction_before_execution.md`.
+5. Commit the prediction before first execution.
+
+### Phase 2 — After execution
+
+1. Compile the program.
+2. Run the program.
+3. Record actual output.
+4. Compare with the prediction.
+5. Explain discrepancies.
+
+Never overwrite the original prediction.
+
+Never create fake earlier commits to suggest a prediction was recorded before execution.
+
+---
+
+# 10. TESTING REQUIREMENTS
+
+For each valid C++ program, execute appropriate normal, boundary and invalid-input tests.
+
+Create a test table:
+
+| Test ID | Input or Scenario | Expected | Actual | Status |
+|---|---|---|---|---|
+
+Use actual observed results.
+
+Record genuine compiler messages for tests expected to fail compilation.
+
+Record sanitizer diagnostics for tests intentionally demonstrating unsafe behavior.
+
+Preserve the actual output from every required complete-the-code program.
+
+Never mark tests PASS without execution.
+
+Use separate files when a task needs multiple distinct experiments.
+
+---
+
+# 11. PERFORMANCE MEASUREMENT REQUIREMENTS
+
+Actual measurements are mandatory for the relevant B2 and B3 comparisons.
+
+Use:
+
+- C++17
+- Actual compiler version
+- `-O2` where specified
+- Consistent workloads
+- Multiple measurement trials where practical
+- Appropriate high-resolution timing
+- Observable results to discourage benchmark elimination
+
+Preserve:
+
+- Benchmark source code
+- Input sizes
+- Compilation command
+- Raw timing results
+- Measurement units
+- Summary values
+- Interpretation
+
+For tests involving 10,000,000 bills, avoid impractical memory use where possible without changing the computation being measured.
+
+If batching or another memory-saving technique is necessary, document it and ensure it does not invalidate the comparison.
+
+Never report a predicted improvement as an observed result.
+
+---
+
+# 12. GITHUB COMMIT REQUIREMENTS
+
+Maintain progressive history.
+
+Make at least one meaningful commit per task.
+
+Minimum: nine task commits.
+
+Suggested commit sequence:
+
+1. `Design A1 hospital billing hierarchy`
+2. `Complete A2 runtime binding analysis`
+3. `Design A3 payer hierarchy`
+4. `Complete A4 exception strategy`
+5. `Complete A5 recovery and rethrow design`
+6. `Implement B1 polymorphic billing`
+7. `Implement B2 exception validation tests`
+8. `Complete B3 performance comparisons`
+9. `Extend B4 hospital billing system`
+
+Additional commits for predictions, test evidence, screenshot additions and fixes are encouraged.
+
+Make prediction commits before executing the relevant programs.
+
+Do not backdate, forge or rewrite Git history to manufacture development progression.
+
+Push work to the existing repository.
+
+Verify all committed files are accessible through GitHub.
+
+---
+
+# 13. README REQUIREMENTS
+
+Create a clean `README.md`.
+
+Include:
+
+- Assignment title
+- Student name
+- Register number
+- Course and slot
+- CO5 description
+- C++17 requirement
+- Actual compiler version
+- Exact compilation commands
+- Program execution instructions
+- Part A summaries
+- Part B summaries
+- Folder navigation
+- Testing procedures
+- AddressSanitizer instructions
+- Benchmark instructions
+- Programiz screenshot locations
+- Key verified results
+- Any outstanding requirements
+
+Keep the README professional and easy to navigate.
+
+Do not include unnecessary AI-tool branding, promotional messages, or decorative labels.
+
+Do not make false claims about who performed work or tests.
+
+---
+
+# 14. EVIDENCE AND SCREENSHOT AUDIT
+
+Before final submission, inspect every screenshot.
+
+Reject a screenshot if:
+
+- Code is unreadable.
+- Output is cut off.
+- The wrong program is shown.
+- The screenshot is blurry or pixelated.
+- The console contains unrelated output.
+- An error is hidden.
+- The screenshot was generated artificially.
+- The file does not match its described test case.
+
+Prefer one clear, genuine screenshot demonstrating each important execution case.
+
+Use additional screenshots whenever the complete source or output cannot fit legibly.
+
+Create a screenshot index inside the task folder explaining what each screenshot proves.
+
+Mark screenshots as verified only after inspecting them.
+
+Programiz screenshots should be committed to the repository with their corresponding task.
+
+---
+
+# 15. ASSIGNMENT CHECKLIST
+
+Create `ASSIGNMENT_CHECKLIST.md`.
+
+Track all requirements from the PDF.
+
+For every requirement, identify:
+
+- Task
+- Requirement
+- Relevant source file
+- Evidence file
+- Screenshot where applicable
+- Status
+
+Use:
+
+**PASS** — genuinely completed and verified
+
+**PENDING** — not yet completed or verified
+
+**BLOCKED** — cannot be completed with available tools or permissions
+
+Before declaring completion verify:
+
+- All nine tasks are covered.
+- Part A UML and vtable diagrams exist.
+- Part A pseudocode is complete.
+- Exception strategy is documented.
+- All required TODO exercises are completed.
+- All valid programs compile.
+- Required programs are executed.
+- Predictions were saved before execution.
+- Programiz screenshots are genuine and readable.
+- Sanitizer experiments are documented.
+- Required benchmark sizes were tested.
+- Timings are real.
+- Alternative-concept analyses are included.
+- B4 extension works.
+- README is complete.
+- At least nine meaningful task commits exist.
+- The repository is correctly pushed.
+- No assignment report was created.
+
+Do not mark the assignment complete while required evidence remains missing.
+
+---
+
+# 16. GOOGLE CLASSROOM SUBMISSION
+
+Prepare only the required GitHub repository link for submission, following my updated faculty instructions.
+
+Repository:
+
+https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-5
+
+Do not generate or attach an assignment report.
+
+If Classroom access is available, verify the correct course and Assignment 5 submission destination.
+
+Obtain my approval before performing the final submission.
+
+If Classroom cannot be accessed, provide the exact repository link for manual submission.
+
+---
+
+# 17. EXECUTION ORDER
+
+Proceed sequentially.
+
+**Stage 1 — Analyze**
+
+Read the PDF, inspect the GitHub repository, extract all requirements, and initialize the checklist.
+
+**Stage 2 — Design**
+
+Complete Part A, including UML, conceptual vtables, exception hierarchy, pseudocode, predictions and required experiments.
+
+**Stage 3 — Implement**
+
+Complete Part B using C++17.
+
+Compile, execute and verify all functional programs.
+
+**Stage 4 — Test**
+
+Run normal, boundary and negative tests.
+
+Perform AddressSanitizer experiments.
+
+**Stage 5 — Measure**
+
+Execute the required performance benchmarks locally with the specified compiler flags.
+
+Record actual measurements.
+
+**Stage 6 — Programiz Screenshots**
+
+Execute suitable programs through the real Programiz online compiler.
+
+Capture and inspect genuine, readable screenshots.
+
+Do not substitute generated images.
+
+**Stage 7 — GitHub**
+
+Commit each task progressively and push all source code, explanations, diagrams, outputs and screenshots.
+
+**Stage 8 — Final Audit**
+
+Verify every requirement and link in the repository.
+
+Do not generate an assignment report.
+
+---
+
+# 18. FINAL RESPONSE REQUIRED
+
+When finished, provide:
+
+1. GitHub repository link
+2. Part A task completion table
+3. Part B task completion table
+4. Number of C++ programs compiled
+5. Number of actual tests executed
+6. Number of genuine Programiz screenshots
+7. Compiler version
+8. AddressSanitizer results
+9. Actual benchmark measurements
+10. Git commit count
+11. Latest commit SHA
+12. Outstanding manual actions
+13. Google Classroom submission status
+
+Clearly distinguish completed work from pending verification.
+
+Never claim Programiz execution or screenshot capture if it was not performed.
+
+**FINAL OBJECTIVE**
+
+Complete all nine Assignment 5 tasks using correct and understandable C++17 implementations, fully documented designs, reliable exception handling, runtime polymorphism, authentic tests, AddressSanitizer evidence, genuine high-quality Programiz screenshots, and progressive GitHub commits.
+
+**NO ASSIGNMENT REPORT.**
+
+The final deliverable is my existing GitHub repository:
+
+https://github.com/hosheapaul2006/DSA0110_SLOT-B-192471019-Assignment-5
+
+Begin by reading the entire attached PDF and inspecting the existing repository. Then execute the workflow systematically.
