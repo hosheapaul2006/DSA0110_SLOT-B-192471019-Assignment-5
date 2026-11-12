@@ -35,12 +35,12 @@ Created from all 16 PDF pages and the current user prompt before implementation.
 | A4.04 | Destructors and stack-unwinding no-throw rationale | [exception contracts and alternatives](PartA/TaskA4/exception_strategy.md), [hierarchy](PartA/TaskA4/diagrams/exception_hierarchy.md) | PASS |
 | A4.05 | Role of invalid_argument out_of_range bad_alloc | [exception contracts and alternatives](PartA/TaskA4/exception_strategy.md), [hierarchy](PartA/TaskA4/diagrams/exception_hierarchy.md) | PASS |
 | A4.06 | Status-code/bool alternative and normal/error-path time/space/propagation analysis | [exception contracts and alternatives](PartA/TaskA4/exception_strategy.md), [hierarchy](PartA/TaskA4/diagrams/exception_hierarchy.md) | PASS |
-| A5.01 | Validation catch/log/rethrow/final-report boundaries and genuine recovery plan | PartA/TaskA5/ | PENDING |
-| A5.02 | RAII stack unwinding unique_ptr file and memory resource safety | PartA/TaskA5/ | PENDING |
-| A5.03 | Exact supplied Guard source and prediction committed before execution | PartA/TaskA5/ | PENDING |
-| A5.04 | Actual exact output and destructor-order explanation | PartA/TaskA5/ | PENDING |
-| A5.05 | Structured recovery pseudocode including bare throw | PartA/TaskA5/ | PENDING |
-| A5.06 | Manual delete-in-catches alternative with leak-path counts and maintainability | PartA/TaskA5/ | PENDING |
+| A5.01 | Validation catch/log/rethrow/final-report boundaries and genuine recovery plan | [recovery design](PartA/TaskA5/recovery_design.md), [pseudocode](PartA/TaskA5/pseudocode.md), [executed prediction](PartA/TaskA5/test_cases.md) | PASS |
+| A5.02 | RAII stack unwinding unique_ptr file and memory resource safety | [recovery design](PartA/TaskA5/recovery_design.md), [pseudocode](PartA/TaskA5/pseudocode.md), [executed prediction](PartA/TaskA5/test_cases.md) | PASS |
+| A5.03 | Exact supplied Guard source and prediction committed before execution | [recovery design](PartA/TaskA5/recovery_design.md), [pseudocode](PartA/TaskA5/pseudocode.md), [executed prediction](PartA/TaskA5/test_cases.md) | PASS |
+| A5.04 | Actual exact output and destructor-order explanation | [recovery design](PartA/TaskA5/recovery_design.md), [pseudocode](PartA/TaskA5/pseudocode.md), [executed prediction](PartA/TaskA5/test_cases.md) | PASS |
+| A5.05 | Structured recovery pseudocode including bare throw | [recovery design](PartA/TaskA5/recovery_design.md), [pseudocode](PartA/TaskA5/pseudocode.md), [executed prediction](PartA/TaskA5/test_cases.md) | PASS |
+| A5.06 | Manual delete-in-catches alternative with leak-path counts and maintainability | [recovery design](PartA/TaskA5/recovery_design.md), [pseudocode](PartA/TaskA5/pseudocode.md), [executed prediction](PartA/TaskA5/test_cases.md) | PASS |
 | B1.01 | Implement four Bill categories and three baseline payers from Part A | PartB/TaskB1/ | PENDING |
 | B1.02 | Twelve bill/payer combinations with inputs total coverage patient share expected/actual | PartB/TaskB1/ | PENDING |
 | B1.03 | Independent hand calculations for representative bill totals and contributions | PartB/TaskB1/ | PENDING |
