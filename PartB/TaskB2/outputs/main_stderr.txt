@@ -1,0 +1,26 @@
+CHECK|Negative charge|PASS
+CHECK|Over-cover claim|PASS
+CHECK|Unknown package|PASS
+CHECK|Missing patient|PASS
+CHECK|Invalid numeric text|PASS
+CHECK|Numeric range|PASS
+CHECK|Trailing text|PASS
+CHECK|Nonfinite numeric value|PASS
+CHECK|stod invalid text has the required invalid_argument type|PASS
+CHECK|stod numeric overflow has the required out_of_range type|PASS
+CHECK|valid numeric values|PASS
+CHECK|all failures preserve existing bill ownership and total|PASS
+CHECK|corrected request recovers with explicit SelfPay|PASS
+CHECK|billing objects cleaned after error demonstration|PASS
+CHECK|injected bad_alloc occurs before object construction|PASS
+CHECK|injector state restored|PASS
+CHECK|small ordinary allocation succeeds|PASS
+CHECK|ordinary owner cleaned|PASS
+CHECK|unwinding cleans all request resources before next iteration|PASS
+CHECK|unwinding cleans all request resources before next iteration|PASS
+CHECK|unwinding cleans all request resources before next iteration|PASS
+CHECK|catch-all and standard catches preserve loop progress|PASS
+CHECK|file destructor flushes/closes during unwinding|PASS
+CHECK|closed temporary file removed successfully|PASS
+CHECK|all constructed resources destroyed after thrown/caught failures|PASS
+TEST_COUNT 25

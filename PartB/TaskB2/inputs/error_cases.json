@@ -1,0 +1,39 @@
+{
+  "embedding": "These inputs are embedded in the C++ drivers; this file transcribes them for review.",
+  "negative_charge": -1,
+  "insurance": {
+    "billed_total": 100000,
+    "copayment_percent": 20,
+    "cover": 50000,
+    "proposed_share": 80000
+  },
+  "unknown_package": "NO_SUCH_PACKAGE",
+  "missing_patient_id": 999,
+  "numeric_text": [
+    "abc",
+    "1e99999",
+    "12junk",
+    "nan",
+    "12.50",
+    "0"
+  ],
+  "allocation_failure": "Injected in AllocationProbe::operator new before OS allocation; no exhaustion requested",
+  "catch_all_inputs": [
+    "int 42",
+    "ClaimError",
+    "success"
+  ],
+  "benchmark": {
+    "claims": 1000000,
+    "invalid_percent": [
+      0,
+      1,
+      50
+    ],
+    "valid_billed": 40000,
+    "invalid_billed": 60000,
+    "cover": 50000,
+    "shuffle_seed": "192471019 + invalid percentage",
+    "trials_per_method": 5
+  }
+}

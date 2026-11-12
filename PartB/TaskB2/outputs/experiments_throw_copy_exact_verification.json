@@ -1,0 +1,29 @@
+{
+  "source": "PartB/TaskB2/experiments/throw_copy_exact.cpp",
+  "sha256": "4a2b5ebf0ad6be20d4f7869d65db01ade072dce295d06d5a3221f560cab516b9",
+  "timestamp_utc": "2026-11-12T15:12:47.122148+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\PartB\\TaskB2\\experiments\\throw_copy_exact.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB2\\experiments_throw_copy_exact.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 1,
+  "tag": null,
+  "headers_sha256": {},
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB2\\experiments_throw_copy_exact.exe"
+  ],
+  "run_exit": 0,
+  "status": "PASS",
+  "expected_comparison": "PASS: exact characters after platform newline decoding"
+}

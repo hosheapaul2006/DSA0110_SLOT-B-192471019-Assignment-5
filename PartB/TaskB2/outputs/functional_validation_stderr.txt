@@ -1,0 +1,34 @@
+CHECK|functional exact rejection count|PASS
+CHECK|functional approved amount|PASS
+CHECK|functional exact rejection count|PASS
+CHECK|functional approved amount|PASS
+CHECK|functional exact rejection count|PASS
+CHECK|functional approved amount|PASS
+CHECK|functional exact rejection count|PASS
+CHECK|functional approved amount|PASS
+CHECK|functional exact rejection count|PASS
+CHECK|functional approved amount|PASS
+CHECK|functional exact rejection count|PASS
+CHECK|functional approved amount|PASS
+CHECK|functional exact rejection count|PASS
+CHECK|functional approved amount|PASS
+CHECK|functional exact rejection count|PASS
+CHECK|functional approved amount|PASS
+CHECK|functional exact rejection count|PASS
+CHECK|functional approved amount|PASS
+CHECK|three validation designs agree on normal/boundary/invalid input|PASS
+CHECK|three approved values identical|PASS
+CHECK|three validation designs agree on normal/boundary/invalid input|PASS
+CHECK|three validation designs agree on normal/boundary/invalid input|PASS
+CHECK|three validation designs agree on normal/boundary/invalid input|PASS
+CHECK|three validation designs agree on normal/boundary/invalid input|PASS
+CHECK|three validation designs agree on normal/boundary/invalid input|PASS
+CHECK|three approved values identical|PASS
+CHECK|three validation designs agree on normal/boundary/invalid input|PASS
+CHECK|three approved values identical|PASS
+CHECK|negative cover rejected by no-throw APIs|PASS
+CHECK|negative cover rejected by exception API|PASS
+CHECK|invalid experiment dimensions rejected|PASS
+CHECK|invalid experiment dimensions rejected|PASS
+CHECK|invalid experiment dimensions rejected|PASS
+TEST_COUNT 33

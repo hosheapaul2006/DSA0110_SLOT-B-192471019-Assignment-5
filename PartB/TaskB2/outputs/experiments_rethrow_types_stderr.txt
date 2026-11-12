@@ -1,0 +1,11 @@
+CHECK|only copied base expression loses derived dynamic type|PASS
+CHECK|derived payload retained|PASS
+CHECK|bare rethrow preserves object identity without copying|PASS
+CHECK|only copied base expression loses derived dynamic type|PASS
+CHECK|derived payload retained|PASS
+CHECK|exact-type throw-expression copies object but retains dynamic type|PASS
+CHECK|only copied base expression loses derived dynamic type|PASS
+CHECK|derived payload retained|PASS
+CHECK|bare rethrow preserves object identity without copying|PASS
+CHECK|only copied base expression loses derived dynamic type|PASS
+TEST_COUNT 10

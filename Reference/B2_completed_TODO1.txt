@@ -1,0 +1,3 @@
+    if (billed < 0 || cover < 0) throw std::invalid_argument("negative amount");
+    if (billed > cover) throw ClaimError("exceeds cover");
+    return billed;

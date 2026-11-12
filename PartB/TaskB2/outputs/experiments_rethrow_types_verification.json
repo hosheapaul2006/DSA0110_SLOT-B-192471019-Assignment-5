@@ -1,0 +1,32 @@
+{
+  "source": "PartB/TaskB2/experiments/rethrow_types.cpp",
+  "sha256": "85020df9aab1c0e273805720c81ae771cc8880fe426aac82911f8155c3066295",
+  "timestamp_utc": "2026-11-12T15:12:49.526248+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\PartB\\TaskB2\\experiments\\rethrow_types.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB2\\experiments_rethrow_types.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 10,
+  "tag": null,
+  "headers_sha256": {
+    "PartB/TaskB1/errors.hpp": "320fad4544510478ef0b66ed31a1f6ec81437c9f528c0b149d9c37530df0079b",
+    "tools/checks.hpp": "41305e8577c46073bce3087490d172e99b7c7d24dc45f3c4934798f53fc5414a"
+  },
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB2\\experiments_rethrow_types.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}
