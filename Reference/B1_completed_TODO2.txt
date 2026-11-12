@@ -1,0 +1,2 @@
+    double total() const override { return consultation + tests; }
+    const char* type() const override { return "OP"; }

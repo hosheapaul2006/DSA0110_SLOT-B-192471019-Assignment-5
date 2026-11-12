@@ -1,0 +1,7 @@
+{
+  "timestamp_utc": "2026-11-12T15:09:07.361312+00:00",
+  "status": "PASS",
+  "original_sha256": "092a1fffd3e9e169bbddd57c68275f704a07b2c97137b9b06cb0937e57fe4068",
+  "completed_sha256": "8224276f12b8c11b08110de52329be9838cd59c59243cdb9355002e49ca1f6ee",
+  "scope": "Only TODO1-3 replaced; reconstructed source byte-equivalent after text newline decoding"
+}

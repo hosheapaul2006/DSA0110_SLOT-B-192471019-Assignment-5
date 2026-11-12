@@ -41,20 +41,20 @@ Created from all 16 PDF pages and the current user prompt before implementation.
 | A5.04 | Actual exact output and destructor-order explanation | [recovery design](PartA/TaskA5/recovery_design.md), [pseudocode](PartA/TaskA5/pseudocode.md), [executed prediction](PartA/TaskA5/test_cases.md) | PASS |
 | A5.05 | Structured recovery pseudocode including bare throw | [recovery design](PartA/TaskA5/recovery_design.md), [pseudocode](PartA/TaskA5/pseudocode.md), [executed prediction](PartA/TaskA5/test_cases.md) | PASS |
 | A5.06 | Manual delete-in-catches alternative with leak-path counts and maintainability | [recovery design](PartA/TaskA5/recovery_design.md), [pseudocode](PartA/TaskA5/pseudocode.md), [executed prediction](PartA/TaskA5/test_cases.md) | PASS |
-| B1.01 | Implement four Bill categories and three baseline payers from Part A | PartB/TaskB1/ | PENDING |
-| B1.02 | Twelve bill/payer combinations with inputs total coverage patient share expected/actual | PartB/TaskB1/ | PENDING |
-| B1.03 | Independent hand calculations for representative bill totals and contributions | PartB/TaskB1/ | PENDING |
-| B1.04 | Retain/recover bill ownership across payment rejection | PartB/TaskB1/ | PENDING |
-| B1.05 | Compare implementation to Part A and explain changes | PartB/TaskB1/ | PENDING |
-| B1.06 | Actual root pure-specifier-without-virtual compile error | PartB/TaskB1/ | PENDING |
-| B1.07 | Inherited virtual omission remains virtual demonstration | PartB/TaskB1/ | PENDING |
-| B1.08 | Genuinely nonvirtual function with retained override actual compile error | PartB/TaskB1/ | PENDING |
-| B1.09 | Controlled nonvirtual version without override demonstrates static binding | PartB/TaskB1/ | PENDING |
+| B1.01 | Implement four Bill categories and three baseline payers from Part A | [source/design comparison](PartB/TaskB1/explanation.md), [actual matrix/tests](PartB/TaskB1/test_cases.md), [TODO preservation](PartB/TaskB1/outputs/todo_preservation.json) | PASS |
+| B1.02 | Twelve bill/payer combinations with inputs total coverage patient share expected/actual | [source/design comparison](PartB/TaskB1/explanation.md), [actual matrix/tests](PartB/TaskB1/test_cases.md), [TODO preservation](PartB/TaskB1/outputs/todo_preservation.json) | PASS |
+| B1.03 | Independent hand calculations for representative bill totals and contributions | [source/design comparison](PartB/TaskB1/explanation.md), [actual matrix/tests](PartB/TaskB1/test_cases.md), [TODO preservation](PartB/TaskB1/outputs/todo_preservation.json) | PASS |
+| B1.04 | Retain/recover bill ownership across payment rejection | [source/design comparison](PartB/TaskB1/explanation.md), [actual matrix/tests](PartB/TaskB1/test_cases.md), [TODO preservation](PartB/TaskB1/outputs/todo_preservation.json) | PASS |
+| B1.05 | Compare implementation to Part A and explain changes | [source/design comparison](PartB/TaskB1/explanation.md), [actual matrix/tests](PartB/TaskB1/test_cases.md), [TODO preservation](PartB/TaskB1/outputs/todo_preservation.json) | PASS |
+| B1.06 | Actual root pure-specifier-without-virtual compile error | [source/design comparison](PartB/TaskB1/explanation.md), [actual matrix/tests](PartB/TaskB1/test_cases.md), [TODO preservation](PartB/TaskB1/outputs/todo_preservation.json) | PASS |
+| B1.07 | Inherited virtual omission remains virtual demonstration | [source/design comparison](PartB/TaskB1/explanation.md), [actual matrix/tests](PartB/TaskB1/test_cases.md), [TODO preservation](PartB/TaskB1/outputs/todo_preservation.json) | PASS |
+| B1.08 | Genuinely nonvirtual function with retained override actual compile error | [source/design comparison](PartB/TaskB1/explanation.md), [actual matrix/tests](PartB/TaskB1/test_cases.md), [TODO preservation](PartB/TaskB1/outputs/todo_preservation.json) | PASS |
+| B1.09 | Controlled nonvirtual version without override demonstrates static binding | [source/design comparison](PartB/TaskB1/explanation.md), [actual matrix/tests](PartB/TaskB1/test_cases.md), [TODO preservation](PartB/TaskB1/outputs/todo_preservation.json) | PASS |
 | B1.10 | Unsafe nonvirtual destruction isolated ASan evidence and repaired design | PartB/TaskB1/ | PENDING |
-| B1.11 | Complete supplied TODO1-3 changing only requested regions | PartB/TaskB1/ | PENDING |
-| B1.12 | Exact TODO output OP1700 IP47500 Total49200 | PartB/TaskB1/ | PENDING |
-| B1.13 | Template/separate-container alternative and mixed-list/time/space analysis | PartB/TaskB1/ | PENDING |
-| B1.14 | Normal boundary invalid and ownership tests | PartB/TaskB1/ | PENDING |
+| B1.11 | Complete supplied TODO1-3 changing only requested regions | [source/design comparison](PartB/TaskB1/explanation.md), [actual matrix/tests](PartB/TaskB1/test_cases.md), [TODO preservation](PartB/TaskB1/outputs/todo_preservation.json) | PASS |
+| B1.12 | Exact TODO output OP1700 IP47500 Total49200 | [source/design comparison](PartB/TaskB1/explanation.md), [actual matrix/tests](PartB/TaskB1/test_cases.md), [TODO preservation](PartB/TaskB1/outputs/todo_preservation.json) | PASS |
+| B1.13 | Template/separate-container alternative and mixed-list/time/space analysis | [source/design comparison](PartB/TaskB1/explanation.md), [actual matrix/tests](PartB/TaskB1/test_cases.md), [TODO preservation](PartB/TaskB1/outputs/todo_preservation.json) | PASS |
+| B1.14 | Normal boundary invalid and ownership tests | [source/design comparison](PartB/TaskB1/explanation.md), [actual matrix/tests](PartB/TaskB1/test_cases.md), [TODO preservation](PartB/TaskB1/outputs/todo_preservation.json) | PASS |
 | B2.01 | Negative charge claim-over-cover unknown package and missing patient tests | PartB/TaskB2/ | PENDING |
 | B2.02 | Invalid stod text invalid_argument and out-of-range numeric conversion | PartB/TaskB2/ | PENDING |
 | B2.03 | Safe controlled bad_alloc test clearly identifies injected failure | PartB/TaskB2/ | PENDING |

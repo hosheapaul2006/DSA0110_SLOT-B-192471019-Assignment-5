@@ -1,0 +1,24 @@
+{
+  "source": "PartB/TaskB1/experiments/nonvirtual_override_error.cpp",
+  "sha256": "d6490537b1cd983d145b2bfaac34b6e0dd49c46ed316d859318986992e9107d9",
+  "timestamp_utc": "2026-11-12T15:06:36.808899+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\PartB\\TaskB1\\experiments\\nonvirtual_override_error.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB1\\experiments_nonvirtual_override_error.exe"
+  ],
+  "compile_exit": 1,
+  "expected_diagnostic": "error",
+  "compile_only": false,
+  "test_count": 1,
+  "tag": null,
+  "headers_sha256": {},
+  "status": "PASS: expected compiler error"
+}

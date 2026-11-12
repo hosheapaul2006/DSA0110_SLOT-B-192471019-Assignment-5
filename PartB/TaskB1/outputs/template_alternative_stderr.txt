@@ -1,0 +1,5 @@
+CHECK|four statically selected value-type calculations|PASS
+CHECK|template groups match independent day total|PASS
+CHECK|empty typed container|PASS
+CHECK|negative static-model component rejected|PASS
+TEST_COUNT 4

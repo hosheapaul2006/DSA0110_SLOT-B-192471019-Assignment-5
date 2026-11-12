@@ -1,0 +1,139 @@
+#ifndef HOSPITAL_BILLING_HPP
+#define HOSPITAL_BILLING_HPP
+#include "errors.hpp"
+#include <cmath>
+#include <map>
+#include <memory>
+#include <ostream>
+#include <string>
+#include <utility>
+#include <vector>
+
+namespace hospital {
+inline constexpr double maximumAmount = 1e12;
+inline double roundPaise(double amount) noexcept { return std::round(amount * 100.0) / 100.0; }
+inline double checkedAmount(double amount) {
+    if (!std::isfinite(amount) || amount < 0 || amount > maximumAmount)
+        throw ValidationError("charge must be finite and between 0 and 1e12 rupees");
+    return roundPaise(amount);
+}
+
+class Patient {
+    int id_;
+    std::string name_;
+public:
+    Patient(int id, std::string name) : id_(id), name_(std::move(name)) {
+        if (id <= 0 || name_.empty()) throw ValidationError("missing patient identity");
+    }
+    int id() const noexcept { return id_; }
+    const std::string& name() const noexcept { return name_; }
+};
+class PatientRegistry {
+    std::map<int, Patient> patients_;
+public:
+    void add(Patient patient) {
+        const int id = patient.id();
+        if (!patients_.emplace(id, std::move(patient)).second) throw ValidationError("duplicate patient record");
+    }
+    const Patient& require(int id) const {
+        auto found = patients_.find(id);
+        if (found == patients_.end()) throw MissingPatientError("missing patient record");
+        return found->second;
+    }
+};
+
+class Bill {
+    int id_;
+    Patient patient_;
+    std::string packageCode_;
+public:
+    inline static int live = 0;
+    Bill(int id, Patient patient, std::string packageCode)
+        : id_(id), patient_(std::move(patient)), packageCode_(std::move(packageCode)) {
+        if (id <= 0) throw ValidationError("bill ID must be positive");
+        if (patient_.id() <= 0 || patient_.name().empty()) throw ValidationError("missing patient identity");
+        ++live;
+    }
+    Bill(const Bill&) = delete; // Prevent by-value slicing of a polymorphic bill.
+    Bill& operator=(const Bill&) = delete;
+    Bill(Bill&& other) noexcept
+        : id_(other.id_), patient_(std::move(other.patient_)), packageCode_(std::move(other.packageCode_)) { ++live; }
+    Bill& operator=(Bill&&) = delete;
+    virtual ~Bill() noexcept { --live; }
+    int id() const noexcept { return id_; }
+    const Patient& patient() const noexcept { return patient_; }
+    const std::string& packageCode() const noexcept { return packageCode_; }
+    virtual double total() const noexcept = 0;
+    virtual const char* type() const noexcept = 0;
+    void print(std::ostream& out) const { out << type() << ' ' << patient_.name() << " bill=" << id_ << " total=" << total(); }
+};
+
+class OutPatientBill : public Bill {
+    double consultation_, tests_;
+public:
+    OutPatientBill(int id, Patient patient, std::string package, double consultation, double tests)
+        : Bill(id, std::move(patient), std::move(package)), consultation_(checkedAmount(consultation)), tests_(checkedAmount(tests)) {
+        (void)checkedAmount(total());
+    }
+    double total() const noexcept override { return roundPaise(consultation_ + tests_); }
+    const char* type() const noexcept override { return "OP"; }
+};
+class InPatientBill : public Bill {
+    int days_;
+    double perDay_, procedures_, medicines_;
+public:
+    InPatientBill(int id, Patient patient, std::string package, int days, double perDay, double procedures, double medicines)
+        : Bill(id, std::move(patient), std::move(package)), days_(days), perDay_(checkedAmount(perDay)),
+          procedures_(checkedAmount(procedures)), medicines_(checkedAmount(medicines)) {
+        if (days <= 0) throw ValidationError("inpatient days must be positive");
+        (void)checkedAmount(total());
+    }
+    double total() const noexcept override { return roundPaise(days_ * perDay_ + procedures_ + medicines_); }
+    const char* type() const noexcept override { return "IP"; }
+};
+class DayCareBill : public Bill {
+    double packagePrice_;
+public:
+    DayCareBill(int id, Patient patient, std::string package, double packagePrice)
+        : Bill(id, std::move(patient), std::move(package)), packagePrice_(checkedAmount(packagePrice)) {}
+    double total() const noexcept override { return packagePrice_; }
+    const char* type() const noexcept override { return "DayCare"; }
+};
+class EmergencyBill : public Bill {
+    double base_, hours_, hourlyRate_;
+public:
+    EmergencyBill(int id, Patient patient, std::string package, double base, double hours, double hourlyRate)
+        : Bill(id, std::move(patient), std::move(package)), base_(checkedAmount(base)), hours_(hours), hourlyRate_(checkedAmount(hourlyRate)) {
+        if (!std::isfinite(hours) || hours < 0) throw ValidationError("hours must be finite and nonnegative");
+        (void)checkedAmount(total());
+    }
+    double total() const noexcept override { return roundPaise(base_ + hours_ * hourlyRate_); }
+    const char* type() const noexcept override { return "Emergency"; }
+};
+
+class Ledger {
+    std::vector<std::unique_ptr<Bill>> bills_;
+public:
+    std::size_t size() const noexcept { return bills_.size(); }
+    const Bill* find(int id) const noexcept {
+        for (const auto& bill : bills_) if (bill->id() == id) return bill.get();
+        return nullptr;
+    }
+    const Bill& add(std::unique_ptr<Bill> bill) {
+        if (!bill) throw ValidationError("null bill owner");
+        if (find(bill->id())) throw ValidationError("duplicate bill ID");
+        bills_.push_back(std::move(bill));
+        return *bills_.back();
+    }
+};
+inline double dailyTotal(const Bill* const* bills, std::size_t count) {
+    if (count && !bills) throw ValidationError("missing bill array");
+    double sum = 0;
+    for (std::size_t i = 0; i < count; ++i) {
+        if (!bills[i]) throw ValidationError("missing bill pointer");
+        sum = checkedAmount(sum + bills[i]->total());
+    }
+    return sum;
+}
+}
+#endif

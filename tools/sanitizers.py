@@ -16,6 +16,14 @@ CASES=[
     ('PartA/TaskA2/layout_probe.cpp','clean',None),
     ('PartA/TaskA2/dynamic_cast_alternative.cpp','clean',None),
     ('PartA/TaskA2/experiments/nonvirtual_destructor.cpp','undefined_observation',None),
+    ('PartA/TaskA5/predict_output.cpp','clean',None),
+    ('PartB/TaskB1/main.cpp','clean',None),
+    ('PartB/TaskB1/complete_code.cpp','clean',None),
+    ('PartB/TaskB1/experiments/inherited_virtual_omission.cpp','clean',None),
+    ('PartB/TaskB1/experiments/nonvirtual_binding.cpp','clean',None),
+    ('PartB/TaskB1/template_alternative.cpp','clean',None),
+    ('PartB/TaskB1/payer_alternatives.cpp','clean',None),
+    ('PartB/TaskB1/experiments/nonvirtual_destructor.cpp','expected_diagnostic',r'new-delete-type-mismatch'),
 ]
 
 def main():

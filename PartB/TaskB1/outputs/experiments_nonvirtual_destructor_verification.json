@@ -1,0 +1,24 @@
+{
+  "source": "PartB/TaskB1/experiments/nonvirtual_destructor.cpp",
+  "sha256": "2c865208ac9fdb9154482be594e0b9eebb43c6a9bea59ce4532a8085debd0a8c",
+  "timestamp_utc": "2026-11-12T15:06:37.998820+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\PartB\\TaskB1\\experiments\\nonvirtual_destructor.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB1\\experiments_nonvirtual_destructor.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": "warning",
+  "compile_only": true,
+  "test_count": 1,
+  "tag": null,
+  "headers_sha256": {},
+  "status": "PASS: compiled only; execution reserved for isolated sanitizer test"
+}

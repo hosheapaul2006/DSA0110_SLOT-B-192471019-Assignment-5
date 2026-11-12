@@ -1,0 +1,13 @@
+type,patient,packageCode,charges,payer,expectedTotal,expectedCovered,expectedPatient
+OP,Ravi,OP_STD,consultation=500;tests=1200,SelfPay,1700,0,1700
+OP,Ravi,OP_STD,consultation=500;tests=1200,Insurance,1700,1360,340
+OP,Ravi,OP_STD,consultation=500;tests=1200,Government,1700,1500,200
+IP,Meena,IP_STD,days=3;perDay=2500;procedures=40000;medicines=2500,SelfPay,50000,0,50000
+IP,Meena,IP_STD,days=3;perDay=2500;procedures=40000;medicines=2500,Insurance,50000,40000,10000
+IP,Meena,IP_STD,days=3;perDay=2500;procedures=40000;medicines=2500,Government,50000,40000,10000
+DayCare,Kavya,DC_STD,package=25000,SelfPay,25000,0,25000
+DayCare,Kavya,DC_STD,package=25000,Insurance,25000,20000,5000
+DayCare,Kavya,DC_STD,package=25000,Government,25000,20000,5000
+Emergency,Arun,ER_STD,base=3000;hours=4;hourly=2000,SelfPay,11000,0,11000
+Emergency,Arun,ER_STD,base=3000;hours=4;hourly=2000,Insurance,11000,8800,2200
+Emergency,Arun,ER_STD,base=3000;hours=4;hourly=2000,Government,11000,10000,1000

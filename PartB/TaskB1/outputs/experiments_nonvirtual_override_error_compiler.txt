@@ -1,0 +1,6 @@
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-5\PartB\TaskB1\experiments\nonvirtual_override_error.cpp:27:12: error: 'double OutPatient::total() const' marked 'override', but does not override
+   27 |     double total() const override { return consultation + tests; }
+      |            ^~~~~
+C:\Projects\SLOT B\DSA0110_SLOT-B-192471019-Assignment-5\PartB\TaskB1\experiments\nonvirtual_override_error.cpp:38:12: error: 'double InPatient::total() const' marked 'override', but does not override
+   38 |     double total() const override { return days * perDay + surgery; }
+      |            ^~~~~

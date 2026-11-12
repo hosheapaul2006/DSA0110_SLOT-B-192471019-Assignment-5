@@ -1,0 +1,2 @@
+    double total() const override { return days * perDay + surgery; }
+    const char* type() const override { return "IP"; }
