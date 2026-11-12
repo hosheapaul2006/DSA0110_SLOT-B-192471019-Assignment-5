@@ -6,11 +6,11 @@ Windows GCC 14.2.0, C++17, -O2. All times below are actual milliseconds. Each gr
 
 | Workload | Method | Five actual trials (ms) | Median (ms) |
 |---|---|---|---|
-| claims=1000000, invalid_percent=0 | optional | 0.823500, 0.809800, 0.809300, 0.822600, 0.830700 | 0.822600 |
-| claims=1000000, invalid_percent=0 | exceptions | 0.811400, 0.803500, 0.814500, 0.801800, 0.806500 | 0.806500 |
-| claims=1000000, invalid_percent=1 | optional | 0.819000, 0.787000, 0.758300, 0.790300, 0.749300 | 0.787000 |
-| claims=1000000, invalid_percent=1 | exceptions | 12.193400, 11.956400, 11.576000, 11.538200, 14.223700 | 11.956400 |
-| claims=1000000, invalid_percent=50 | optional | 3.737800, 3.761600, 3.750700, 3.869200, 3.874300 | 3.761600 |
-| claims=1000000, invalid_percent=50 | exceptions | 553.897700, 556.484800, 551.797100, 545.792000, 544.210100 | 551.797100 |
+| claims=1000000, invalid_percent=0 | optional | 0.806700, 0.793100, 0.835100, 0.834800, 0.831900 | 0.831900 |
+| claims=1000000, invalid_percent=0 | exceptions | 0.806800, 0.877600, 0.859300, 0.829500, 0.832200 | 0.832200 |
+| claims=1000000, invalid_percent=1 | optional | 0.812900, 0.831800, 0.810000, 0.823700, 0.816400 | 0.816400 |
+| claims=1000000, invalid_percent=1 | exceptions | 12.878300, 15.857900, 13.769900, 13.540800, 13.197500 | 13.540800 |
+| claims=1000000, invalid_percent=50 | optional | 4.144900, 3.942500, 3.904400, 3.991400, 4.368000 | 3.991400 |
+| claims=1000000, invalid_percent=50 | exceptions | 588.653300, 562.409400, 598.861800, 572.106900, 621.505600 | 588.653300 |
 
 These are measured workload/configuration results, not a universal performance guarantee. Allocation, input generation, logging, error rates, working-set size, compiler decisions, caches and scheduling affect interpretation. Functional checksums/rejection counts and exact build/run commands accompany the raw CSV.

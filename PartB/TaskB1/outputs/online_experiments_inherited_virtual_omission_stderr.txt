@@ -1,0 +1,2 @@
+CHECK|inherited virtual remains virtual without repeated keyword|PASS
+TEST_COUNT 1

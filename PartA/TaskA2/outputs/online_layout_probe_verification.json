@@ -1,0 +1,29 @@
+{
+  "source": "PartA/TaskA2/online_layout_probe.cpp",
+  "sha256": "ac1e680f25640c3bcc81fac8b3f3ed1a39ab3b6186c9656a9c287bc9242d9fee",
+  "timestamp_utc": "2026-11-12T15:39:03.139947+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\PartA\\TaskA2\\online_layout_probe.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartA\\TaskA2\\online_layout_probe.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 1,
+  "tag": null,
+  "headers_sha256": {},
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartA\\TaskA2\\online_layout_probe.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

@@ -1,7 +1,7 @@
 {
   "source": "PartB/TaskB2/experiments/throw_copy_exact.cpp",
   "sha256": "4a2b5ebf0ad6be20d4f7869d65db01ade072dce295d06d5a3221f560cab516b9",
-  "timestamp_utc": "2026-11-12T15:12:47.122148+00:00",
+  "timestamp_utc": "2026-11-12T15:39:22.430923+00:00",
   "optimization": "-O0",
   "compile_command": [
     "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",

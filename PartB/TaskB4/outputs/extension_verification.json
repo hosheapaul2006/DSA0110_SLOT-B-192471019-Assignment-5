@@ -1,0 +1,37 @@
+{
+  "source": "PartB/TaskB4/extension.cpp",
+  "sha256": "c6b7b95d8910970118911b13aac6e875dad68b810c5c153e93bf7e5a1d67a6f0",
+  "timestamp_utc": "2026-11-12T15:39:37.815612+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\PartB\\TaskB4\\extension.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB4\\extension.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 22,
+  "tag": null,
+  "headers_sha256": {
+    "PartB/TaskB4/extension_suite.hpp": "96cb3020dc6227930fee3b355844534d2edb8582a344d9ec8866d34839f0385e",
+    "PartB/TaskB4/extensions.hpp": "aa4c7807ee5b85bf5fa8d18cc20ed0bbc2b2b31d08d300cc3e34596598e9f4b2",
+    "PartB/TaskB1/payers.hpp": "594e5c12de0b2ee146c9ba4fd9eb0b2ec2c3351f1c23ea8baaf6b2434c4a2c69",
+    "PartB/TaskB1/billing.hpp": "39a08920343bf560e43bacfcfe5b1242bdf9a86889bd62b366ad510ca8fe243b",
+    "PartB/TaskB1/errors.hpp": "320fad4544510478ef0b66ed31a1f6ec81437c9f528c0b149d9c37530df0079b",
+    "PartB/TaskB2/allocation_probe.hpp": "87db081bae0538c58d6dc3da60ee096e469ac2ee47c00979200da344417f2cbe",
+    "tools/checks.hpp": "41305e8577c46073bce3087490d172e99b7c7d24dc45f3c4934798f53fc5414a"
+  },
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB4\\extension.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

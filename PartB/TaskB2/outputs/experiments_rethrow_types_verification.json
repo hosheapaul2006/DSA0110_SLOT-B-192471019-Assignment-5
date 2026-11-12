@@ -1,7 +1,7 @@
 {
   "source": "PartB/TaskB2/experiments/rethrow_types.cpp",
   "sha256": "85020df9aab1c0e273805720c81ae771cc8880fe426aac82911f8155c3066295",
-  "timestamp_utc": "2026-11-12T15:12:49.526248+00:00",
+  "timestamp_utc": "2026-11-12T15:39:21.198243+00:00",
   "optimization": "-O0",
   "compile_command": [
     "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",

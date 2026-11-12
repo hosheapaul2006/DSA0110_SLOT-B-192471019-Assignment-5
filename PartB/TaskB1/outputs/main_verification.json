@@ -1,7 +1,7 @@
 {
   "source": "PartB/TaskB1/main.cpp",
   "sha256": "3bfee8ddb66b0d78826c7422f40660771768f2f69446479a903f4127a9ed0530",
-  "timestamp_utc": "2026-11-12T15:04:27.402904+00:00",
+  "timestamp_utc": "2026-11-12T15:39:10.033695+00:00",
   "optimization": "-O0",
   "compile_command": [
     "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",

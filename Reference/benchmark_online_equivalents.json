@@ -1,0 +1,5 @@
+{
+  "PartB/TaskB2/benchmark.cpp": "PartB/TaskB2/functional_validation.cpp",
+  "PartB/TaskB3/benchmark.cpp": "PartB/TaskB3/main.cpp",
+  "PartB/TaskB3/validation_benchmark.cpp": "PartB/TaskB2/functional_validation.cpp"
+}

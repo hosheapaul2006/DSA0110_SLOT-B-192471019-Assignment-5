@@ -1,0 +1,23 @@
+CHECK|extension begins without surviving earlier objects|PASS
+CHECK|new bill type and independent total|PASS
+CHECK|new payer independently expected coverage/patient share|PASS
+CHECK|new bill accepted by unchanged old payer|PASS
+CHECK|new payer handles old bill and its cap|PASS
+CHECK|corporate exact cap boundary|PASS
+CHECK|zero new bill|PASS
+CHECK|zero corporate coverage percentage|PASS
+CHECK|full corporate percentage|PASS
+CHECK|zero corporate cap|PASS
+CHECK|extended run throws/logs/catches ClaimError|PASS
+CHECK|rejection retains new bill and charge|PASS
+CHECK|new package has no invented government allowance|PASS
+CHECK|valid retry after rejected requests|PASS
+CHECK|negative new scan fee rejected|PASS
+CHECK|negative new report fee rejected|PASS
+CHECK|new total beyond monetary bound rejected|PASS
+CHECK|invalid new payer percentage|PASS
+CHECK|invalid new payer cap|PASS
+CHECK|extended run catches injected allocation failure without leaks|PASS
+CHECK|allocation failure does not remove existing extended bill|PASS
+CHECK|all extension owners released after thrown and caught errors|PASS
+TEST_COUNT 22

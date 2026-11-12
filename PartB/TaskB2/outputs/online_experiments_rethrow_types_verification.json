@@ -1,0 +1,29 @@
+{
+  "source": "PartB/TaskB2/online_experiments_rethrow_types.cpp",
+  "sha256": "c169b546c5e3a8e5301256fa507ec91820d01dbbae2bde2c938d936b02f0f3b5",
+  "timestamp_utc": "2026-11-12T15:39:21.854258+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\PartB\\TaskB2\\online_experiments_rethrow_types.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB2\\online_experiments_rethrow_types.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 10,
+  "tag": null,
+  "headers_sha256": {},
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB2\\online_experiments_rethrow_types.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

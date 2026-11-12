@@ -1,7 +1,7 @@
 {
   "source": "PartA/TaskA2/experiments/nonvirtual_destructor.cpp",
   "sha256": "5c98db8bd6e98c855e875507b998d95443088f4c68301bcf5857cf6685ba2b47",
-  "timestamp_utc": "2026-11-12T14:50:00.182151+00:00",
+  "timestamp_utc": "2026-11-12T15:39:01.958050+00:00",
   "optimization": "-O0",
   "compile_command": [
     "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",

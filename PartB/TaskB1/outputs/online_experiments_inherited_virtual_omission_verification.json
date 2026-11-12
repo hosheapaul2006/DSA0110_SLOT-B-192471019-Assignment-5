@@ -1,0 +1,29 @@
+{
+  "source": "PartB/TaskB1/online_experiments_inherited_virtual_omission.cpp",
+  "sha256": "ce809c5dd8ec2e4b05447aaf42145629d31e2ff3fbe97611a1d6bcfb1a80b4c0",
+  "timestamp_utc": "2026-11-12T15:39:06.630131+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\PartB\\TaskB1\\online_experiments_inherited_virtual_omission.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB1\\online_experiments_inherited_virtual_omission.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 1,
+  "tag": null,
+  "headers_sha256": {},
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB1\\online_experiments_inherited_virtual_omission.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

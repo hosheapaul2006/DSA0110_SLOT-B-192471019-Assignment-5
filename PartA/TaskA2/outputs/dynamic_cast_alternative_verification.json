@@ -1,7 +1,7 @@
 {
   "source": "PartA/TaskA2/dynamic_cast_alternative.cpp",
   "sha256": "8652fd2d20a0c2bb0310cdd74f5d3c3d7947371e4779bc1ffea6288c2e50d1d2",
-  "timestamp_utc": "2026-11-12T14:50:18.978687+00:00",
+  "timestamp_utc": "2026-11-12T15:39:00.286866+00:00",
   "optimization": "-O0",
   "compile_command": [
     "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",

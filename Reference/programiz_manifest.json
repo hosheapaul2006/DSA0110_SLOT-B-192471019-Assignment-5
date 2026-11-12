@@ -1,0 +1,154 @@
+[
+  {
+    "base_source": "PartA/TaskA2/dynamic_cast_alternative.cpp",
+    "submitted_source": "PartA/TaskA2/online_dynamic_cast_alternative.cpp",
+    "task_folder": "PartA/TaskA2",
+    "local_stdout": "PartA/TaskA2/outputs/online_dynamic_cast_alternative_actual.txt",
+    "output_stem": "dynamic_cast_alternative",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartA/TaskA2/layout_probe.cpp",
+    "submitted_source": "PartA/TaskA2/online_layout_probe.cpp",
+    "task_folder": "PartA/TaskA2",
+    "local_stdout": "PartA/TaskA2/outputs/online_layout_probe_actual.txt",
+    "output_stem": "layout_probe",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartA/TaskA2/predict_output.cpp",
+    "submitted_source": "PartA/TaskA2/predict_output.cpp",
+    "task_folder": "PartA/TaskA2",
+    "local_stdout": "PartA/TaskA2/outputs/predict_output_actual.txt",
+    "output_stem": "predict_output",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartA/TaskA5/predict_output.cpp",
+    "submitted_source": "PartA/TaskA5/predict_output.cpp",
+    "task_folder": "PartA/TaskA5",
+    "local_stdout": "PartA/TaskA5/outputs/predict_output_actual.txt",
+    "output_stem": "predict_output",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartB/TaskB1/complete_code.cpp",
+    "submitted_source": "PartB/TaskB1/complete_code.cpp",
+    "task_folder": "PartB/TaskB1",
+    "local_stdout": "PartB/TaskB1/outputs/complete_code_actual.txt",
+    "output_stem": "complete_code",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartB/TaskB1/experiments/inherited_virtual_omission.cpp",
+    "submitted_source": "PartB/TaskB1/online_experiments_inherited_virtual_omission.cpp",
+    "task_folder": "PartB/TaskB1",
+    "local_stdout": "PartB/TaskB1/outputs/online_experiments_inherited_virtual_omission_actual.txt",
+    "output_stem": "experiments_inherited_virtual_omission",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartB/TaskB1/experiments/nonvirtual_binding.cpp",
+    "submitted_source": "PartB/TaskB1/experiments/nonvirtual_binding.cpp",
+    "task_folder": "PartB/TaskB1",
+    "local_stdout": "PartB/TaskB1/outputs/experiments_nonvirtual_binding_actual.txt",
+    "output_stem": "experiments_nonvirtual_binding",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartB/TaskB1/main.cpp",
+    "submitted_source": "PartB/TaskB1/online_main.cpp",
+    "task_folder": "PartB/TaskB1",
+    "local_stdout": "PartB/TaskB1/outputs/online_main_actual.txt",
+    "output_stem": "main",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartB/TaskB1/payer_alternatives.cpp",
+    "submitted_source": "PartB/TaskB1/online_payer_alternatives.cpp",
+    "task_folder": "PartB/TaskB1",
+    "local_stdout": "PartB/TaskB1/outputs/online_payer_alternatives_actual.txt",
+    "output_stem": "payer_alternatives",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartB/TaskB1/template_alternative.cpp",
+    "submitted_source": "PartB/TaskB1/online_template_alternative.cpp",
+    "task_folder": "PartB/TaskB1",
+    "local_stdout": "PartB/TaskB1/outputs/online_template_alternative_actual.txt",
+    "output_stem": "template_alternative",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartB/TaskB2/complete_code.cpp",
+    "submitted_source": "PartB/TaskB2/complete_code.cpp",
+    "task_folder": "PartB/TaskB2",
+    "local_stdout": "PartB/TaskB2/outputs/complete_code_actual.txt",
+    "output_stem": "complete_code",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartB/TaskB2/experiments/rethrow_types.cpp",
+    "submitted_source": "PartB/TaskB2/online_experiments_rethrow_types.cpp",
+    "task_folder": "PartB/TaskB2",
+    "local_stdout": "PartB/TaskB2/outputs/online_experiments_rethrow_types_actual.txt",
+    "output_stem": "experiments_rethrow_types",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartB/TaskB2/experiments/throw_copy_exact.cpp",
+    "submitted_source": "PartB/TaskB2/experiments/throw_copy_exact.cpp",
+    "task_folder": "PartB/TaskB2",
+    "local_stdout": "PartB/TaskB2/outputs/experiments_throw_copy_exact_actual.txt",
+    "output_stem": "experiments_throw_copy_exact",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartB/TaskB2/functional_validation.cpp",
+    "submitted_source": "PartB/TaskB2/online_functional_validation.cpp",
+    "task_folder": "PartB/TaskB2",
+    "local_stdout": "PartB/TaskB2/outputs/online_functional_validation_actual.txt",
+    "output_stem": "functional_validation",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartB/TaskB2/main.cpp",
+    "submitted_source": "PartB/TaskB2/online_main.cpp",
+    "task_folder": "PartB/TaskB2",
+    "local_stdout": "PartB/TaskB2/outputs/online_main_actual.txt",
+    "output_stem": "main",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartB/TaskB2/predict_output.cpp",
+    "submitted_source": "PartB/TaskB2/predict_output.cpp",
+    "task_folder": "PartB/TaskB2",
+    "local_stdout": "PartB/TaskB2/outputs/predict_output_actual.txt",
+    "output_stem": "predict_output",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartB/TaskB3/main.cpp",
+    "submitted_source": "PartB/TaskB3/online_main.cpp",
+    "task_folder": "PartB/TaskB3",
+    "local_stdout": "PartB/TaskB3/outputs/online_main_actual.txt",
+    "output_stem": "main",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartB/TaskB4/extension.cpp",
+    "submitted_source": "PartB/TaskB4/online_extension.cpp",
+    "task_folder": "PartB/TaskB4",
+    "local_stdout": "PartB/TaskB4/outputs/online_extension_actual.txt",
+    "output_stem": "extension",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  },
+  {
+    "base_source": "PartB/TaskB4/main.cpp",
+    "submitted_source": "PartB/TaskB4/online_main.cpp",
+    "task_folder": "PartB/TaskB4",
+    "local_stdout": "PartB/TaskB4/outputs/online_main_actual.txt",
+    "output_stem": "main",
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+  }
+]

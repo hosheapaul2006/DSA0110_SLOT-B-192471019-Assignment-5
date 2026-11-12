@@ -1,0 +1,99 @@
+CHECK|baseline begins without live bills|PASS
+CHECK|matrix: bill total|PASS
+CHECK|matrix: payer coverage|PASS
+CHECK|matrix: patient contribution|PASS
+CHECK|matrix: total conserved|PASS
+CHECK|matrix: bill total|PASS
+CHECK|matrix: payer coverage|PASS
+CHECK|matrix: patient contribution|PASS
+CHECK|matrix: total conserved|PASS
+CHECK|matrix: bill total|PASS
+CHECK|matrix: payer coverage|PASS
+CHECK|matrix: patient contribution|PASS
+CHECK|matrix: total conserved|PASS
+CHECK|matrix: bill total|PASS
+CHECK|matrix: payer coverage|PASS
+CHECK|matrix: patient contribution|PASS
+CHECK|matrix: total conserved|PASS
+CHECK|matrix: bill total|PASS
+CHECK|matrix: payer coverage|PASS
+CHECK|matrix: patient contribution|PASS
+CHECK|matrix: total conserved|PASS
+CHECK|matrix: bill total|PASS
+CHECK|matrix: payer coverage|PASS
+CHECK|matrix: patient contribution|PASS
+CHECK|matrix: total conserved|PASS
+CHECK|matrix: bill total|PASS
+CHECK|matrix: payer coverage|PASS
+CHECK|matrix: patient contribution|PASS
+CHECK|matrix: total conserved|PASS
+CHECK|matrix: bill total|PASS
+CHECK|matrix: payer coverage|PASS
+CHECK|matrix: patient contribution|PASS
+CHECK|matrix: total conserved|PASS
+CHECK|matrix: bill total|PASS
+CHECK|matrix: payer coverage|PASS
+CHECK|matrix: patient contribution|PASS
+CHECK|matrix: total conserved|PASS
+CHECK|matrix: bill total|PASS
+CHECK|matrix: payer coverage|PASS
+CHECK|matrix: patient contribution|PASS
+CHECK|matrix: total conserved|PASS
+CHECK|matrix: bill total|PASS
+CHECK|matrix: payer coverage|PASS
+CHECK|matrix: patient contribution|PASS
+CHECK|matrix: total conserved|PASS
+CHECK|matrix: bill total|PASS
+CHECK|matrix: payer coverage|PASS
+CHECK|matrix: patient contribution|PASS
+CHECK|matrix: total conserved|PASS
+CHECK|independent hand-derived daily total|PASS
+CHECK|empty daily pointer range|PASS
+CHECK|missing nonempty pointer array|PASS
+CHECK|null bill element|PASS
+CHECK|missing patient record|PASS
+CHECK|duplicate patient record|PASS
+CHECK|duplicate does not overwrite existing patient|PASS
+CHECK|null bill owner|PASS
+CHECK|duplicate bill ID|PASS
+CHECK|failed additions retain ledger and release candidate|PASS
+CHECK|claim logged and same typed exception rethrown|PASS
+CHECK|rejected bill remains owned and unchanged|PASS
+CHECK|real recovery by different valid payer|PASS
+CHECK|logging failure does not replace original ClaimError|PASS
+CHECK|government allowance capped by actual total|PASS
+CHECK|unknown government package rejected|PASS
+CHECK|package rejection is payer-specific and retains bill|PASS
+CHECK|insurance exact cover boundary after co-payment|PASS
+CHECK|insurer share exceeding cover rejected|PASS
+CHECK|one-hundred-percent co-payment|PASS
+CHECK|zero co-payment|PASS
+CHECK|zero charge components|PASS
+CHECK|zero emergency hours|PASS
+CHECK|fractional emergency hours|PASS
+CHECK|nearest-paise normalization|PASS
+CHECK|negative outpatient charge|PASS
+CHECK|negative medicine charge|PASS
+CHECK|negative package price|PASS
+CHECK|negative emergency base|PASS
+CHECK|nonpositive inpatient days|PASS
+CHECK|negative hours|PASS
+CHECK|NaN charge|PASS
+CHECK|infinite hours|PASS
+CHECK|sum above monetary range|PASS
+CHECK|room product above range|PASS
+CHECK|overflowing time product|PASS
+CHECK|invalid bill ID|PASS
+CHECK|invalid patient ID|PASS
+CHECK|empty patient name|PASS
+CHECK|negative cover|PASS
+CHECK|negative co-payment|PASS
+CHECK|co-payment above one hundred|PASS
+CHECK|empty package code|PASS
+CHECK|invalid government allowance|PASS
+CHECK|negative payer result rejected|PASS
+CHECK|overpayment result rejected|PASS
+CHECK|NaN payer result rejected|PASS
+CHECK|day sum above representable demonstration range|PASS
+CHECK|complete virtual cleanup after baseline and failed constructions|PASS
+TEST_COUNT 98

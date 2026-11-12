@@ -1,7 +1,7 @@
 {
   "source": "PartB/TaskB1/experiments/root_pure_without_virtual.cpp",
   "sha256": "2d2229c4eef21646ecf9a4429ee22d2ccb31fdeea04c493004c6c1264e5434f4",
-  "timestamp_utc": "2026-11-12T15:06:36.516631+00:00",
+  "timestamp_utc": "2026-11-12T15:39:08.707208+00:00",
   "optimization": "-O0",
   "compile_command": [
     "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",

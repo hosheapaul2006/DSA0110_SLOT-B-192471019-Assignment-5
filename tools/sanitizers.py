@@ -24,6 +24,15 @@ CASES=[
     ('PartB/TaskB1/template_alternative.cpp','clean',None),
     ('PartB/TaskB1/payer_alternatives.cpp','clean',None),
     ('PartB/TaskB1/experiments/nonvirtual_destructor.cpp','expected_diagnostic',r'new-delete-type-mismatch'),
+    ('PartB/TaskB2/main.cpp','clean',None),
+    ('PartB/TaskB2/complete_code.cpp','clean',None),
+    ('PartB/TaskB2/predict_output.cpp','clean',None),
+    ('PartB/TaskB2/experiments/throw_copy_exact.cpp','clean',None),
+    ('PartB/TaskB2/experiments/rethrow_types.cpp','clean',None),
+    ('PartB/TaskB2/functional_validation.cpp','clean',None),
+    ('PartB/TaskB3/main.cpp','clean',None),
+    ('PartB/TaskB4/main.cpp','clean',None),
+    ('PartB/TaskB4/extension.cpp','clean',None),
 ]
 
 def main():

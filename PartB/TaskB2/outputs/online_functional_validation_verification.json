@@ -1,0 +1,29 @@
+{
+  "source": "PartB/TaskB2/online_functional_validation.cpp",
+  "sha256": "9d99548cd4069248d3a5f9a377dc2a9bd8c117fbad0dad1b6d053ef957934c59",
+  "timestamp_utc": "2026-11-12T15:39:24.388038+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\PartB\\TaskB2\\online_functional_validation.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB2\\online_functional_validation.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 33,
+  "tag": null,
+  "headers_sha256": {},
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB2\\online_functional_validation.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

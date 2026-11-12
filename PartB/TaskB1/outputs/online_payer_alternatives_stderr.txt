@@ -1,0 +1,4 @@
+CHECK|abstract/function-pointer/std-function policies agree|PASS
+CHECK|three policy forms reject same over-cover share|PASS
+CHECK|value capture independent of later context mutation|PASS
+TEST_COUNT 3

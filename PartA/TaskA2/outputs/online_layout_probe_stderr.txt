@@ -1,0 +1,2 @@
+CHECK|virtual call remains valid with stack lifetime|PASS
+TEST_COUNT 1
