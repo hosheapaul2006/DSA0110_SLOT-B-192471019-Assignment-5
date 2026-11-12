@@ -1,0 +1,3 @@
+Equivalent coverage=1360
+sizeof Payer=8 Insurance=24 function pointer=8 context=16 std::function=32
+

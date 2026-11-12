@@ -1,0 +1,29 @@
+{
+  "source": "PartB/TaskB2/online_main_programiz.cpp",
+  "sha256": "4fe173ae4422f795876f50e1c66e9c5d8dc42062d5c74ca2296a0655da3a6f81",
+  "timestamp_utc": "2026-11-12T16:09:05.162438+00:00",
+  "optimization": "-O0",
+  "compile_command": [
+    "C:\\Projects\\SLOT B\\.tools\\mingw64\\bin\\g++.exe",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-O0",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\PartB\\TaskB2\\online_main_programiz.cpp",
+    "-o",
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB2\\online_main_programiz.exe"
+  ],
+  "compile_exit": 0,
+  "expected_diagnostic": null,
+  "compile_only": false,
+  "test_count": 24,
+  "tag": null,
+  "headers_sha256": {},
+  "run_command": [
+    "C:\\Projects\\SLOT B\\DSA0110_SLOT-B-192471019-Assignment-5\\build\\PartB\\TaskB2\\online_main_programiz.exe",
+    "--tests"
+  ],
+  "run_exit": 0,
+  "status": "PASS"
+}

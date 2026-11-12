@@ -1,0 +1,23 @@
+{
+  "base_source": "PartB/TaskB2/functional_validation.cpp",
+  "submitted_source": "PartB/TaskB2/online_functional_validation.cpp",
+  "task_folder": "PartB/TaskB2",
+  "local_stdout": "PartB/TaskB2/outputs/online_functional_validation_actual.txt",
+  "output_stem": "functional_validation",
+  "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations",
+  "submitted_sha256": "9d99548cd4069248d3a5f9a377dc2a9bd8c117fbad0dad1b6d053ef957934c59",
+  "base_sha256": "994284a479dc938b2dc06f16e8a55ce8572c24c64546f943360161dbb9124bb6",
+  "captured_utc": "2026-11-12T15:55:43.056Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "actual_output_sha256": "fa08906ef7e2e3cc1cc3555ee3e0e0d06216d737de300e7f4413b06c941a7580",
+  "comparison_policy": "Exact fixed stdout; sizeof/alignof/requested payload values and trailing Programiz whitespace/banner may differ. Standalone ERROR! is preserved and explicitly disclosed.",
+  "platform_annotation": "None",
+  "screenshots": [
+    {
+      "path": "PartB/TaskB2/screenshots/functional_validation_programiz.jpg",
+      "sha256": "83a2e3c164e1179d4a8dbf2bb36060af8a9ab79e858bf75668665eac315be0f0",
+      "view": "Source driver and actual output"
+    }
+  ]
+}

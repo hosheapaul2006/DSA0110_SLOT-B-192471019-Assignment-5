@@ -1,0 +1,21 @@
+Type Payer Total Covered Patient
+OP SelfPay 1700.00 0.00 1700.00
+OP Insurance 1700.00 1360.00 340.00
+OP Government 1700.00 1500.00 200.00
+IP SelfPay 50000.00 0.00 50000.00
+IP Insurance 50000.00 40000.00 10000.00
+IP Government 50000.00 40000.00 10000.00
+DayCare SelfPay 25000.00 0.00 25000.00
+DayCare Insurance 25000.00 20000.00 5000.00
+DayCare Government 25000.00 20000.00 5000.00
+Emergency SelfPay 11000.00 0.00 11000.00
+Emergency Insurance 11000.00 8800.00 2200.00
+Emergency Government 11000.00 10000.00 1000.00
+audit bill=2: exceeds cover
+Recovered retained bill=2 via SelfPay patient=50000.00
+Extension Diagnostic total=6500.00 Corporate covered=5200.00 patient=1300.00
+Old Insurance on new bill covered=5200.00
+New Corporate on old DayCare total=250000.00 covered=100000.00 patient=150000.00
+audit bill=101: exceeds cover
+Unknown government package rejected; bill retained
+Retry Corporate covered=5200.00

@@ -1,0 +1,23 @@
+{
+  "base_source": "PartB/TaskB2/predict_output.cpp",
+  "submitted_source": "PartB/TaskB2/predict_output.cpp",
+  "task_folder": "PartB/TaskB2",
+  "local_stdout": "PartB/TaskB2/outputs/predict_output_actual.txt",
+  "output_stem": "predict_output",
+  "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations",
+  "submitted_sha256": "c8b8b5c9ababadd7430c35ac7618f3fb84f96696f2210b2d25a55b4440dc1af0",
+  "base_sha256": "c8b8b5c9ababadd7430c35ac7618f3fb84f96696f2210b2d25a55b4440dc1af0",
+  "captured_utc": "2026-11-12T15:58:04.357Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "actual_output_sha256": "d67d0d63bbdb44ebf290cedf713d92caead5a613da6909c4d35faf5a87c4b471",
+  "comparison_policy": "Exact fixed stdout; sizeof/alignof/requested payload values and trailing Programiz whitespace/banner may differ. Standalone ERROR! is preserved and explicitly disclosed.",
+  "platform_annotation": "None",
+  "screenshots": [
+    {
+      "path": "PartB/TaskB2/screenshots/predict_output_programiz.jpg",
+      "sha256": "7799c2300e989e7175eead588d6cc16ff257e202e6b0fed47eb9cac0176a747d",
+      "view": "Source driver and actual output"
+    }
+  ]
+}

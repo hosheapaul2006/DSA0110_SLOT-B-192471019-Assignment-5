@@ -1,0 +1,22 @@
+{
+  "base_source": "PartB/TaskB1/experiments/inherited_virtual_omission.cpp",
+  "submitted_source": "PartB/TaskB1/online_experiments_inherited_virtual_omission.cpp",
+  "task_folder": "PartB/TaskB1",
+  "local_stdout": "PartB/TaskB1/outputs/online_experiments_inherited_virtual_omission_actual.txt",
+  "output_stem": "experiments_inherited_virtual_omission",
+  "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations",
+  "submitted_sha256": "ce809c5dd8ec2e4b05447aaf42145629d31e2ff3fbe97611a1d6bcfb1a80b4c0",
+  "base_sha256": "c37def13cfc2d6bd0b8608bd3484ce720b1492c102fb877cc0da0cbccc053e70",
+  "captured_utc": "2026-11-12T15:49:05.704Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "actual_output_sha256": "197e1414991544bb7ecda0213ff853e9e5d260d1769ee9518a1ac88a9d9a025b",
+  "comparison_policy": "Exact fixed stdout, allowing only platform-dependent sizeof/alignof/requested payload values and trailing Programiz success banner/whitespace",
+  "screenshots": [
+    {
+      "path": "PartB/TaskB1/screenshots/experiments_inherited_virtual_omission_programiz.jpg",
+      "sha256": "276356a21e33b982202c779bfda6285fce9442952ac4d543af970ac22ec7bff9",
+      "view": "Driver/end of source and actual output"
+    }
+  ]
+}

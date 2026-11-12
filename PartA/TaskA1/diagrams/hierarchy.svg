@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="800" viewBox="0 0 1680 800">
+<rect width="100%" height="100%" fill="white"/>
+<defs><marker id="inherit" markerWidth="18" markerHeight="16" refX="17" refY="8" orient="auto"><path d="M1,1 L17,8 L1,15 Z" fill="white" stroke="#26384a" stroke-width="1.5"/></marker><marker id="call" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1,1 L10,6 L1,11" fill="none" stroke="#26384a" stroke-width="2"/></marker></defs>
+<polyline points="210.0,420 210,355 815,355 815.0,256" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<polyline points="620.0,420 620,355 815,355 815.0,256" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<polyline points="1025.0,420 1025,355 815,355 815.0,256" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<polyline points="1440.0,420 1440,355 815,355 815.0,256" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<rect x="510" y="30" width="610" height="226" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="815.0" y="59" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">Bill «abstract»</text>
+<path d="M510,74 H1120" stroke="#26384a"/>
+<text x="522" y="99" font-family="Arial" font-size="17">- id_: int; - patient_: Patient (owned value)</text>
+<text x="522" y="123" font-family="Arial" font-size="17">- packageCode_: string</text>
+<path d="M510,139 H1120" stroke="#26384a"/>
+<text x="522" y="162" font-family="Arial" font-size="17">+ virtual total() const noexcept: double = 0</text>
+<text x="522" y="186" font-family="Arial" font-size="17">+ virtual type() const noexcept: const char* = 0</text>
+<text x="522" y="210" font-family="Arial" font-size="17">+ print(stream) const  {nonvirtual wrapper}</text>
+<text x="522" y="234" font-family="Arial" font-size="17">+ virtual ~Bill() noexcept</text>
+<rect x="30" y="420" width="360" height="178" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="210.0" y="449" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">OutPatientBill</text>
+<path d="M30,464 H390" stroke="#26384a"/>
+<text x="42" y="489" font-family="Arial" font-size="17">- consultation_: double</text>
+<text x="42" y="513" font-family="Arial" font-size="17">- tests_: double</text>
+<path d="M30,529 H390" stroke="#26384a"/>
+<text x="42" y="552" font-family="Arial" font-size="17">+ total()/type(): override</text>
+<text x="42" y="576" font-family="Arial" font-size="17">total = consultation + tests</text>
+<rect x="430" y="420" width="380" height="226" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="620.0" y="449" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">InPatientBill</text>
+<path d="M430,464 H810" stroke="#26384a"/>
+<text x="442" y="489" font-family="Arial" font-size="17">- days_: int; - perDay_: double</text>
+<text x="442" y="513" font-family="Arial" font-size="17">- procedures_: double</text>
+<text x="442" y="537" font-family="Arial" font-size="17">- medicines_: double</text>
+<path d="M430,553 H810" stroke="#26384a"/>
+<text x="442" y="576" font-family="Arial" font-size="17">+ total()/type(): override</text>
+<text x="442" y="600" font-family="Arial" font-size="17">total = days × perDay</text>
+<text x="442" y="624" font-family="Arial" font-size="17">        + procedures + medicines</text>
+<rect x="850" y="420" width="350" height="154" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="1025.0" y="449" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">DayCareBill</text>
+<path d="M850,464 H1200" stroke="#26384a"/>
+<text x="862" y="489" font-family="Arial" font-size="17">- packagePrice_: double</text>
+<path d="M850,505 H1200" stroke="#26384a"/>
+<text x="862" y="528" font-family="Arial" font-size="17">+ total()/type(): override</text>
+<text x="862" y="552" font-family="Arial" font-size="17">total = packagePrice</text>
+<rect x="1240" y="420" width="400" height="178" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="1440.0" y="449" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">EmergencyBill</text>
+<path d="M1240,464 H1640" stroke="#26384a"/>
+<text x="1252" y="489" font-family="Arial" font-size="17">- base_: double; - hours_: double</text>
+<text x="1252" y="513" font-family="Arial" font-size="17">- hourlyRate_: double</text>
+<path d="M1240,529 H1640" stroke="#26384a"/>
+<text x="1252" y="552" font-family="Arial" font-size="17">+ total()/type(): override</text>
+<text x="1252" y="576" font-family="Arial" font-size="17">total = base + hours × hourlyRate</text>
+<text x="35" y="750" font-family="Arial" font-size="18" fill="#26384a">Hollow triangle points to the public base. Pure virtual operations use = 0; concrete operations override them.</text>
+<text x="35" y="780" font-family="Arial" font-size="18" fill="#26384a">Patient is held by value; Ledger owns unique_ptr&lt;Bill&gt;; borrowed Bill* arrays provide mixed-type processing.</text>
+</svg>

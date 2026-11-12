@@ -1,0 +1,7 @@
+Extension Diagnostic total=6500.00 Corporate covered=5200.00 patient=1300.00
+Old Insurance on new bill covered=5200.00
+New Corporate on old DayCare total=250000.00 covered=100000.00 patient=150000.00
+audit bill=101: exceeds cover
+Unknown government package rejected; bill retained
+Retry Corporate covered=5200.00
+

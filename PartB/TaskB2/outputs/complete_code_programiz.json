@@ -1,0 +1,23 @@
+{
+  "base_source": "PartB/TaskB2/complete_code.cpp",
+  "submitted_source": "PartB/TaskB2/complete_code.cpp",
+  "task_folder": "PartB/TaskB2",
+  "local_stdout": "PartB/TaskB2/outputs/complete_code_actual.txt",
+  "output_stem": "complete_code",
+  "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations",
+  "submitted_sha256": "13637c8d87fae845223db2dffad5798923c8d8405ad49188c4b6fd5624c1afc8",
+  "base_sha256": "13637c8d87fae845223db2dffad5798923c8d8405ad49188c4b6fd5624c1afc8",
+  "captured_utc": "2026-11-12T16:07:35.837Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "MATCH_WITH_ADDITIONAL_PROGRAMIZ_MARKER",
+  "actual_output_sha256": "f16a59db6ecc0d8426cb8c1b96484e668b0db2aee76411051dd9b4ba1120a09f",
+  "comparison_policy": "Exact fixed stdout; sizeof/alignof/requested payload values and trailing Programiz whitespace/banner may differ. Standalone ERROR! is preserved and explicitly disclosed.",
+  "platform_annotation": "Actual online console includes extra ERROR! line absent from exact source and local stdout; matching program text after removing this standalone UI marker. Raw evidence retained.",
+  "screenshots": [
+    {
+      "path": "PartB/TaskB2/screenshots/complete_code_programiz.jpg",
+      "sha256": "a95d23301d888e38094f6b55384803f4ebf0686be2a4d4554779a118c83b7617",
+      "view": "Completed TODO source and handled failures; Programiz ERROR! annotation preserved"
+    }
+  ]
+}

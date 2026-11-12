@@ -24,8 +24,10 @@ The full baseline suite records 98 executed checks: these 12 combinations each h
 | Inherited virtual, keyword omitted | Dynamic total500 | One check passed | PASS |
 | Nonvirtual total with derived override retained | Compiler error | Genuine GCC error retained | PASS |
 | Controlled nonvirtual total without override | OP0, IP0, Total0 | Exact comparison matched | PASS |
-| Nonvirtual destructor copy | Compile warning; isolated ASan execution | Local warning captured; ASan result not yet retrieved | PENDING |
+| Nonvirtual destructor copy | Compile warning; isolated ASan execution | Local warning captured; Ubuntu ASan exit1 reports new-delete-type-mismatch | PASS |
 | Template separate containers | Four expected totals and day87700; empty0; invalid rejection | Four checks passed | PASS |
 | Policy alternatives | Three equivalent cover/rejection rules; capture state independent | Three checks passed | PASS |
 
 The safe programs record 108 runtime check evaluations. Three additional compiler-diagnostic checks cover the two intentional errors and one warning/compile-only unsafe source. Sanitizer observations are counted separately.
+
+Actual sanitizer [diagnostic](outputs/sanitizer_experiments_nonvirtual_destructor_stderr.txt) and [verification](outputs/sanitizer_experiments_nonvirtual_destructor_verification.json) were retrieved from successful Ubuntu workflow 43250582265 at source commit 127e355. The repaired full main and completed TODO both exit0 with empty sanitizer stderr.

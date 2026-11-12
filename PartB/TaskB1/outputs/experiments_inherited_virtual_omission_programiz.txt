@@ -1,0 +1,2 @@
+Inherited virtual total=500
+

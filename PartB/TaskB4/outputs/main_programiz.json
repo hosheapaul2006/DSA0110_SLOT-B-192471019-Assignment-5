@@ -1,0 +1,28 @@
+{
+  "base_source": "PartB/TaskB4/main.cpp",
+  "submitted_source": "PartB/TaskB4/online_main.cpp",
+  "task_folder": "PartB/TaskB4",
+  "local_stdout": "PartB/TaskB4/outputs/online_main_actual.txt",
+  "output_stem": "main",
+  "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations",
+  "submitted_sha256": "658820fbdb47cee473cc7f311bea56c2e21ae0e8a4205f2743c4d03c19ea4250",
+  "base_sha256": "67e0808ec449c1182ccabcbd6563421b3de48bba371ea51ada2543a8fca454fc",
+  "captured_utc": "2026-11-12T16:00:25.516Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "actual_output_sha256": "778eac2cdf768b916efe96b18a5d09eb16b3cf2f6e81e3d444e1b1c9c9bd3c4e",
+  "comparison_policy": "Exact program text after declared platform sizeof differences, trailing whitespace/banner and disclosed standalone ERROR! annotation. Raw output and screenshot preserved.",
+  "platform_annotation": "None",
+  "screenshots": [
+    {
+      "path": "PartB/TaskB4/screenshots/main_programiz.jpg",
+      "sha256": "4409bc545d7eff8c9024679285f925380c22d36a5cd46d0f5edf4f1c7c20ae62",
+      "view": "Source and actual output"
+    },
+    {
+      "path": "PartB/TaskB4/screenshots/main_extension_source.jpg",
+      "sha256": "3c0eb59d270dc437895cb91c0c1b1877eb7ccf6f8572edef9fe342ed6af641b3",
+      "view": "Unchanged baseline matrix processing within the extended application"
+    }
+  ]
+}

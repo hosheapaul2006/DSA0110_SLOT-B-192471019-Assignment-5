@@ -1,0 +1,24 @@
+{
+  "base_source": "PartB/TaskB2/main.cpp",
+  "submitted_source": "PartB/TaskB2/online_main_programiz.cpp",
+  "task_folder": "PartB/TaskB2",
+  "local_stdout": "PartB/TaskB2/outputs/online_main_programiz_actual.txt",
+  "output_stem": "main",
+  "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations",
+  "adaptation": "Memory-only online unwind subset: relative-path file creation failed. Alternate paths are unverified. Full file RAII remains verified by unchanged main.cpp locally and Ubuntu ASan. Original online failure retained.",
+  "submitted_sha256": "4fe173ae4422f795876f50e1c66e9c5d8dc42062d5c74ca2296a0655da3a6f81",
+  "base_sha256": "01c1c5f23c9e242e710b7451d4a3ebe76fd2ff22e88d7fae7f86cce83d4d0741",
+  "captured_utc": "2026-11-12T16:09:40.916Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "actual_output_sha256": "3a0bd0d88e09ab2fe065f229ab4b8acd3743abde9efb0cf4684e2579d420e29a",
+  "comparison_policy": "Exact program text after declared platform sizeof differences, trailing whitespace/banner and disclosed standalone ERROR! annotation. Raw output and screenshot preserved.",
+  "platform_annotation": "None",
+  "screenshots": [
+    {
+      "path": "PartB/TaskB2/screenshots/main_programiz.jpg",
+      "sha256": "4db6c2d71e9cb62e867d8116a0d8170b6d6e43aefa7cfba19444fb992100a965",
+      "view": "24-check memory-only online subset; full file test remains local/Ubuntu-only"
+    }
+  ]
+}

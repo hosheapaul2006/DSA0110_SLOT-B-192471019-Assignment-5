@@ -16,6 +16,6 @@
 | 12 | Combined driver | Earlier98 checks plus22 new checks |120 evaluations passed; baseline stdout prefix unchanged | PASS |
 | 13 | Extension-only driver | Same new behavior independently |22 evaluations passed | PASS |
 | 14 | All earlier safe examples, TODOs, diagnostics and large -O2 runs after extension | All checks continue to succeed | Complete run_all regression succeeded | PASS |
-| 15 | Extended thrown/caught paths under ASan | Exit0, empty sanitizer stderr | Final workflow result not yet retrieved | PENDING |
+| 15 | Extended thrown/caught paths under ASan | Exit0, empty sanitizer stderr | Ubuntu ASan main and extension each exit0 with empty stderr; workflow43250582265 | PASS |
 
 The two B4 drivers record142 runtime evaluations in total, including repeated baseline/extension checks. No existing implementation class was changed. Original source baseline and post-extension proof are Reference/baseline_before_B4.json and outputs/unchanged_sources.json. Regression evidence is outputs/regression_summary.json; individual actual commands/results remain in each task's outputs/.

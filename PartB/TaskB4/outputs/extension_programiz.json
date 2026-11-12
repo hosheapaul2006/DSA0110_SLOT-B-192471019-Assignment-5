@@ -1,0 +1,23 @@
+{
+  "base_source": "PartB/TaskB4/extension.cpp",
+  "submitted_source": "PartB/TaskB4/online_extension.cpp",
+  "task_folder": "PartB/TaskB4",
+  "local_stdout": "PartB/TaskB4/outputs/online_extension_actual.txt",
+  "output_stem": "extension",
+  "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations",
+  "submitted_sha256": "df9e5d98531c6ac792cb290586c28d98a5190aa73647c3aa58e772203e5d2fb5",
+  "base_sha256": "c6b7b95d8910970118911b13aac6e875dad68b810c5c153e93bf7e5a1d67a6f0",
+  "captured_utc": "2026-11-12T15:59:45.535Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "actual_output_sha256": "7e1fc555fb79a55dbcf892a1e818ab4e81efade52a9cce886c51d9709d057db3",
+  "comparison_policy": "Exact program text after declared platform sizeof differences, trailing whitespace/banner and disclosed standalone ERROR! annotation. Raw output and screenshot preserved.",
+  "platform_annotation": "None",
+  "screenshots": [
+    {
+      "path": "PartB/TaskB4/screenshots/extension_programiz.jpg",
+      "sha256": "617eac70250bca4a655ba17c78e1a5a2fbf8a50c97704dba66e0e2e8e346f095",
+      "view": "Source and actual output"
+    }
+  ]
+}

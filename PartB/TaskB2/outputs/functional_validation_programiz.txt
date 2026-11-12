@@ -1,0 +1,6 @@
+Invalid 0%: rejected=0 approved sum=40000000.00
+Invalid 1%: rejected=10 approved sum=39600000.00
+Invalid 50%: rejected=500 approved sum=20000000.00
+Optional, exceptions and return codes agree on boundary cases
+sizeof optional<double>=16 StatusResult=16 ClaimError=16
+

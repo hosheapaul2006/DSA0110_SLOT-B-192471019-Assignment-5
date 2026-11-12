@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "audited_utc": "2026-11-12T16:17:50.585251+00:00",
+  "cpp_sources": 40,
+  "base_sources": 27,
+  "successful_compilations": 37,
+  "safe_local_run_configurations": 35,
+  "runtime_check_evaluations": 948,
+  "compiler_diagnostic_evaluations": 5,
+  "counting_note": "Canonical latest configurations, including repeated flattened-copy/B4 checks; historical retries excluded",
+  "predictions": [
+    {
+      "task": "PartA/TaskA2",
+      "prediction_commit": "7c78d17",
+      "first_execution_utc": "2026-11-12T14:49:58.955081+00:00"
+    },
+    {
+      "task": "PartA/TaskA5",
+      "prediction_commit": "9000c57",
+      "first_execution_utc": "2026-11-12T14:55:46.826130+00:00"
+    },
+    {
+      "task": "PartB/TaskB2",
+      "prediction_commit": "94ffa2c",
+      "first_execution_utc": "2026-11-12T15:12:45.747544+00:00"
+    }
+  ],
+  "protected_sources_unchanged": 33,
+  "actual_timed_loops": 105,
+  "sanitizer_cases": 21,
+  "sanitizer_clean": 19,
+  "sanitizer_expected_diagnostic": 1,
+  "sanitizer_undefined_observation": 1,
+  "programiz_distinct_functional_cases": 19,
+  "programiz_annotation_cases": 2,
+  "programiz_limitation": "B2 file cleanup is local/Ubuntu-only; 24-check online memory subset; relative-path failure retained; alternate paths unverified",
+  "genuine_screenshots": 24,
+  "successful_or_annotated_views": 23,
+  "retained_failure_views": 1,
+  "native_diagrams": 4,
+  "no_report": true
+}

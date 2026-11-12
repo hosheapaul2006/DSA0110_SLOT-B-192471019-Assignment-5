@@ -49,4 +49,6 @@ Bill <|-- DayCareBill
 Bill <|-- EmergencyBill
 ```
 
-total/type are pure virtual in Bill and overridden in every concrete type. print is a shared nonvirtual wrapper. Generalization denotes public inheritance; the composition diamond denotes the owned Patient value. Asterisks denote abstract operations in this Mermaid notation. A standalone SVG version will be generated and visually reviewed with the remaining design diagrams.
+total/type are pure virtual in Bill and overridden in every concrete type. print is a shared nonvirtual wrapper. Generalization denotes public inheritance; the composition diamond denotes the owned Patient value. Asterisks denote abstract operations in this Mermaid notation. The standalone SVG version was rendered and visually reviewed.
+
+![Standalone diagram](hierarchy.svg)

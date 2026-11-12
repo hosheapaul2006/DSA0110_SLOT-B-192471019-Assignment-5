@@ -50,6 +50,8 @@ def main():
                          'local_stdout':task+'/outputs/'+submitted.removesuffix('.cpp').replace('/','_')+'_actual.txt',
                          'output_stem':source.removesuffix('.cpp').replace('/','_'),
                          'comparison':'Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations'})
+    from programiz_adapter import adapt
+    records.append(adapt(manifest))
     (ROOT/'Reference/programiz_manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8',newline='\n')
     (ROOT/'Reference/benchmark_online_equivalents.json').write_text(json.dumps(BENCHMARK_EQUIVALENTS,indent=2)+'\n',encoding='utf-8',newline='\n')
     base=(ROOT/'PartB/TaskB1/outputs/main_actual.txt').read_bytes()

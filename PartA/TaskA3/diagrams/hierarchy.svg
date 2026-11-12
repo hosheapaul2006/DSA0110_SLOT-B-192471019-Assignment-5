@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="760" viewBox="0 0 1640 760">
+<rect width="100%" height="100%" fill="white"/>
+<defs><marker id="inherit" markerWidth="18" markerHeight="16" refX="17" refY="8" orient="auto"><path d="M1,1 L17,8 L1,15 Z" fill="white" stroke="#26384a" stroke-width="1.5"/></marker><marker id="call" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1,1 L10,6 L1,11" fill="none" stroke="#26384a" stroke-width="2"/></marker></defs>
+<polyline points="190.0,390 190,330 820,330 820.0,208" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<polyline points="580.0,390 580,330 820,330 820.0,208" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<polyline points="1005.0,390 1005,330 820,330 820.0,208" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<polyline points="1425.0,390 1425,330 820,330 820.0,208" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#inherit)"/>
+<rect x="500" y="30" width="640" height="178" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="820.0" y="59" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">Payer «abstract»</text>
+<path d="M500,74 H1140" stroke="#26384a"/>
+<text x="512" y="99" font-family="Arial" font-size="17">(fields omitted)</text>
+<path d="M500,115 H1140" stroke="#26384a"/>
+<text x="512" y="138" font-family="Arial" font-size="17">+ virtual amountCovered(const Bill&amp;) const: double = 0</text>
+<text x="512" y="162" font-family="Arial" font-size="17">+ virtual name() const noexcept: const char* = 0</text>
+<text x="512" y="186" font-family="Arial" font-size="17">+ virtual ~Payer() noexcept</text>
+<rect x="30" y="390" width="320" height="154" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="190.0" y="419" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">SelfPay</text>
+<path d="M30,434 H350" stroke="#26384a"/>
+<text x="42" y="459" font-family="Arial" font-size="17">(fields omitted)</text>
+<path d="M30,475 H350" stroke="#26384a"/>
+<text x="42" y="498" font-family="Arial" font-size="17">+ amountCovered(): override</text>
+<text x="42" y="522" font-family="Arial" font-size="17">returns 0</text>
+<rect x="390" y="390" width="380" height="178" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="580.0" y="419" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">Insurance</text>
+<path d="M390,434 H770" stroke="#26384a"/>
+<text x="402" y="459" font-family="Arial" font-size="17">- limit_: double</text>
+<text x="402" y="483" font-family="Arial" font-size="17">- coPayment_: percent</text>
+<path d="M390,499 H770" stroke="#26384a"/>
+<text x="402" y="522" font-family="Arial" font-size="17">+ amountCovered(): override</text>
+<text x="402" y="546" font-family="Arial" font-size="17">reject share above limit</text>
+<rect x="810" y="390" width="390" height="178" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="1005.0" y="419" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">GovernmentScheme</text>
+<path d="M810,434 H1200" stroke="#26384a"/>
+<text x="822" y="459" font-family="Arial" font-size="17">- packages_: map&lt;code, amount&gt;</text>
+<path d="M810,475 H1200" stroke="#26384a"/>
+<text x="822" y="498" font-family="Arial" font-size="17">+ amountCovered(): override</text>
+<text x="822" y="522" font-family="Arial" font-size="17">min(bill total, allowance)</text>
+<text x="822" y="546" font-family="Arial" font-size="17">unknown package throws</text>
+<rect x="1240" y="390" width="370" height="202" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="1425.0" y="419" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">CorporatePayer</text>
+<path d="M1240,434 H1610" stroke="#26384a"/>
+<text x="1252" y="459" font-family="Arial" font-size="17">- percent_: double</text>
+<text x="1252" y="483" font-family="Arial" font-size="17">- cap_: double</text>
+<path d="M1240,499 H1610" stroke="#26384a"/>
+<text x="1252" y="522" font-family="Arial" font-size="17">+ amountCovered(): override</text>
+<text x="1252" y="546" font-family="Arial" font-size="17">min(total × percent / 100, cap)</text>
+<text x="1252" y="570" font-family="Arial" font-size="17">B4: added in separate header</text>
+<text x="30" y="715" font-family="Arial" font-size="18" fill="#26384a">Bill is passed by const reference. The existing payer classes require no new type checks when CorporatePayer is added.</text>
+<text x="30" y="745" font-family="Arial" font-size="18" fill="#26384a">Government map lookup is O(log p) for p packages; fixed-size sample policy invocation is bounded.</text>
+</svg>

@@ -1,0 +1,21 @@
+Negative charge: charge must be finite and between 0 and 1e12 rupees
+audit bill=1: exceeds cover
+Over-cover claim: exceeds cover
+Unknown package: unknown package
+Missing patient: missing patient record
+Invalid numeric text: stod
+Numeric range: stod
+Trailing text: trailing numeric text
+Nonfinite numeric value: charge must be finite and between 0 and 1e12 rupees
+Injected allocation failure: std::bad_alloc (OS allocation not attempted)
++request0
+~request0
+Catch-all: unknown failure; next request continues
++request1
+~request1
+Standard handler: example claim failure
++request2
+~request2
++file-scope
+~file-scope
+RAII memory and file cleanup verified

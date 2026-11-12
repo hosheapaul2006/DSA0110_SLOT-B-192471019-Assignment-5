@@ -1,0 +1,22 @@
+{
+  "base_source": "PartA/TaskA2/dynamic_cast_alternative.cpp",
+  "submitted_source": "PartA/TaskA2/online_dynamic_cast_alternative.cpp",
+  "task_folder": "PartA/TaskA2",
+  "local_stdout": "PartA/TaskA2/outputs/online_dynamic_cast_alternative_actual.txt",
+  "output_stem": "dynamic_cast_alternative",
+  "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations",
+  "submitted_sha256": "3a522fd6f8fc0edad12b92cf79d36028abfde914a4c9aafa3131ac0a168828e7",
+  "base_sha256": "8652fd2d20a0c2bb0310cdd74f5d3c3d7947371e4779bc1ffea6288c2e50d1d2",
+  "captured_utc": "2026-11-12T15:48:28.070Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "actual_output_sha256": "fb110b1907259438998b0790c7fb4ed498c91e69a2f159119f00203a0cd33ae1",
+  "comparison_policy": "Exact fixed stdout, allowing only platform-dependent sizeof/alignof/requested payload values and trailing Programiz success banner/whitespace",
+  "screenshots": [
+    {
+      "path": "PartA/TaskA2/screenshots/dynamic_cast_alternative_programiz.jpg",
+      "sha256": "af989fb1e2165f8845b3db6bfa2dcac82c5992ade54e6e741884e2aaf78d5b1d",
+      "view": "Driver/end of source and actual output"
+    }
+  ]
+}

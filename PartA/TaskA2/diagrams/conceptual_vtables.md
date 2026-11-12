@@ -20,3 +20,5 @@ flowchart LR
 ```
 
 At a non-devirtualized `b->total()` call, the common implementation follows the object's virtual-table pointer and invokes the selected slot, with any required pointer adjustment. The static Bill* type admits the interface call; the dynamic object type chooses the final overrider. The exact supplied prediction program is a smaller model: it has total/destruction but no type() operation. Its nonvirtual show() wrapper still reaches OPBill::total().
+
+![Standalone diagram](conceptual_vtables.svg)

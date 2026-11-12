@@ -29,3 +29,7 @@ Both schemes take O(n) validation work; optional adds a presence tag/value and l
 ## Interpretation of the measured dataset
 
 In the saved five-trial observations, the zero-error medians were similar, while exceptions were substantially slower than optional at both 1% and 50% invalid inputs. That supports using an explicit rejection result for frequent expected rejections in this workload, while preserving exceptions for failures requiring cross-layer propagation. Exact current numbers and all trials are in benchmark_results.md. The small functional driver also prints sizeof optional<double>, StatusResult and ClaimError; sizeof an exception object excludes runtime metadata and any message allocation. No general allocator cost is inferred from that fixed object size.
+
+## Actual online environment limitation
+
+The original full driver failed to create its relative-path temporary file on Programiz. That raw failure is retained in outputs/main_programiz_readonly_failure.txt and screenshots/main_programiz_readonly_failure.jpg. Alternate paths are unverified: an attempted retry reused the original source, and its duplicate capture was discarded. The independent online_main_programiz.cpp runs a labelled 24-check memory-only subset. Original main.cpp and its 25 checks, including actual file flush/close/reopen/remove, remain unchanged and passed locally and on Ubuntu ASan. See [the screenshot index](screenshot_index.md) for the exact submitted sources and the additional ERROR! UI annotation observed in the TODO/copy examples.

@@ -1,0 +1,22 @@
+=================================================================
+==2098==ERROR: AddressSanitizer: new-delete-type-mismatch on 0x506000000020 in thread T0:
+  object passed to delete has wrong type:
+  size of the allocated type:   56 bytes;
+  size of the deallocated type: 40 bytes.
+    #0 0x7f042d4ff5e8 in operator delete(void*, unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:164
+    #1 0x555743024d40 in main /home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/PartB/TaskB1/experiments/nonvirtual_destructor.cpp:52
+    #2 0x7f042cc2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+    #3 0x7f042cc2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+    #4 0x555743024404 in _start (/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/build/sanitizer/PartB_TaskB1_experiments_nonvirtual_destructor+0x2404) (BuildId: c23919927dcea672614108fbc23df1a117aaa79b)
+
+0x506000000020 is located 0 bytes inside of 56-byte region [0x506000000020,0x506000000058)
+allocated by thread T0 here:
+    #0 0x7f042d4fe548 in operator new(unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:95
+    #1 0x55574302458f in main /home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/PartB/TaskB1/experiments/nonvirtual_destructor.cpp:44
+    #2 0x7f042cc2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+    #3 0x7f042cc2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: a4a7992a8e66555c8141ab2a08a8465ff6e0ea65)
+    #4 0x555743024404 in _start (/home/runner/work/DSA0110_SLOT-B-192471019-Assignment-5/DSA0110_SLOT-B-192471019-Assignment-5/build/sanitizer/PartB_TaskB1_experiments_nonvirtual_destructor+0x2404) (BuildId: c23919927dcea672614108fbc23df1a117aaa79b)
+
+SUMMARY: AddressSanitizer: new-delete-type-mismatch ../../../../src/libsanitizer/asan/asan_new_delete.cpp:164 in operator delete(void*, unsigned long)
+==2098==HINT: if you don't care about these errors you may set ASAN_OPTIONS=new_delete_type_mismatch=0
+==2098==ABORTING

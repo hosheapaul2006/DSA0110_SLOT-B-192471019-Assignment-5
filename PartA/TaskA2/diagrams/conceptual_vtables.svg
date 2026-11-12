@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1000" viewBox="0 0 1680 1000">
+<rect width="100%" height="100%" fill="white"/>
+<defs><marker id="inherit" markerWidth="18" markerHeight="16" refX="17" refY="8" orient="auto"><path d="M1,1 L17,8 L1,15 Z" fill="white" stroke="#26384a" stroke-width="1.5"/></marker><marker id="call" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1,1 L10,6 L1,11" fill="none" stroke="#26384a" stroke-width="2"/></marker></defs>
+<polyline points="305,395.0 390,407.0" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#call)"/>
+<polyline points="810,407.0 1010,419.0" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#call)"/>
+<polyline points="305,715.0 390,727.0" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#call)"/>
+<polyline points="810,727.0 1010,739.0" fill="none" stroke="#26384a" stroke-width="2" marker-end="url(#call)"/>
+<rect x="550" y="25" width="600" height="178" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="850.0" y="54" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">Bill interface (abstract)</text>
+<path d="M550,69 H1150" stroke="#26384a"/>
+<text x="562" y="94" font-family="Arial" font-size="17">(fields omitted)</text>
+<path d="M550,110 H1150" stroke="#26384a"/>
+<text x="562" y="133" font-family="Arial" font-size="17">total → pure virtual entry</text>
+<text x="562" y="157" font-family="Arial" font-size="17">type → pure virtual entry</text>
+<text x="562" y="181" font-family="Arial" font-size="17">destruction → virtual destructor role</text>
+<rect x="25" y="330" width="280" height="130" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="165.0" y="359" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">b1: Bill*</text>
+<path d="M25,374 H305" stroke="#26384a"/>
+<text x="37" y="399" font-family="Arial" font-size="17">points to derived object</text>
+<path d="M25,415 H305" stroke="#26384a"/>
+<text x="37" y="438" font-family="Arial" font-size="17">(operations omitted)</text>
+<rect x="390" y="330" width="420" height="154" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="600.0" y="359" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">OutPatientBill object</text>
+<path d="M390,374 H810" stroke="#26384a"/>
+<text x="402" y="399" font-family="Arial" font-size="17">conceptual vptr → table</text>
+<text x="402" y="423" font-family="Arial" font-size="17">patient / ID / OP charge fields</text>
+<path d="M390,439 H810" stroke="#26384a"/>
+<text x="402" y="462" font-family="Arial" font-size="17">(operations omitted)</text>
+<rect x="1010" y="330" width="610" height="178" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="1315.0" y="359" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">OutPatientBill table</text>
+<path d="M1010,374 H1620" stroke="#26384a"/>
+<text x="1022" y="399" font-family="Arial" font-size="17">(fields omitted)</text>
+<path d="M1010,415 H1620" stroke="#26384a"/>
+<text x="1022" y="438" font-family="Arial" font-size="17">total → OutPatientBill::total()</text>
+<text x="1022" y="462" font-family="Arial" font-size="17">type → OutPatientBill::type()</text>
+<text x="1022" y="486" font-family="Arial" font-size="17">destruction → OutPatientBill then Bill</text>
+<rect x="25" y="650" width="280" height="130" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="165.0" y="679" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">b2: Bill*</text>
+<path d="M25,694 H305" stroke="#26384a"/>
+<text x="37" y="719" font-family="Arial" font-size="17">points to derived object</text>
+<path d="M25,735 H305" stroke="#26384a"/>
+<text x="37" y="758" font-family="Arial" font-size="17">(operations omitted)</text>
+<rect x="390" y="650" width="420" height="154" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="600.0" y="679" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">InPatientBill object</text>
+<path d="M390,694 H810" stroke="#26384a"/>
+<text x="402" y="719" font-family="Arial" font-size="17">conceptual vptr → table</text>
+<text x="402" y="743" font-family="Arial" font-size="17">patient / ID / IP charge fields</text>
+<path d="M390,759 H810" stroke="#26384a"/>
+<text x="402" y="782" font-family="Arial" font-size="17">(operations omitted)</text>
+<rect x="1010" y="650" width="610" height="178" rx="3" fill="#f5f8fb" stroke="#26384a" stroke-width="2"/>
+<text x="1315.0" y="679" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">InPatientBill table</text>
+<path d="M1010,694 H1620" stroke="#26384a"/>
+<text x="1022" y="719" font-family="Arial" font-size="17">(fields omitted)</text>
+<path d="M1010,735 H1620" stroke="#26384a"/>
+<text x="1022" y="758" font-family="Arial" font-size="17">total → InPatientBill::total()</text>
+<text x="1022" y="782" font-family="Arial" font-size="17">type → InPatientBill::type()</text>
+<text x="1022" y="806" font-family="Arial" font-size="17">destruction → InPatientBill then Bill</text>
+<text x="25" y="925" font-family="Arial" font-size="18" fill="#26384a">Common conceptual implementation only: C++ does not mandate a vptr, table order, slots or this layout.</text>
+<text x="25" y="955" font-family="Arial" font-size="18" fill="#26384a">b-&gt;total() follows the dynamic object’s selected total entry. Abstract Bill cannot be a complete instantiated object.</text>
+<text x="25" y="985" font-family="Arial" font-size="18" fill="#26384a">print()/show() is a nonvirtual wrapper that calls virtual operations; it needs no virtual slot of its own.</text>
+</svg>

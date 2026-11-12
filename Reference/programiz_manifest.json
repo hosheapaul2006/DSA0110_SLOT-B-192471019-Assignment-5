@@ -113,11 +113,12 @@
   },
   {
     "base_source": "PartB/TaskB2/main.cpp",
-    "submitted_source": "PartB/TaskB2/online_main.cpp",
+    "submitted_source": "PartB/TaskB2/online_main_programiz.cpp",
     "task_folder": "PartB/TaskB2",
-    "local_stdout": "PartB/TaskB2/outputs/online_main_actual.txt",
+    "local_stdout": "PartB/TaskB2/outputs/online_main_programiz_actual.txt",
     "output_stem": "main",
-    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations"
+    "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations",
+    "adaptation": "Memory-only online unwind subset: relative-path file creation failed. Alternate paths are unverified. Full file RAII remains verified by unchanged main.cpp locally and Ubuntu ASan. Original online failure retained."
   },
   {
     "base_source": "PartB/TaskB2/predict_output.cpp",

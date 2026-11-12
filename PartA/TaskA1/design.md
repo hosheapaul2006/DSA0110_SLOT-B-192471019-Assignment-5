@@ -15,7 +15,7 @@ Patient is composition (has-a), not a bill subtype. All category relationships a
 
 Ownership is separate from processing: an array of unique_ptr<Bill> owns the objects, while the required Bill* array provides borrowed views. Payment decisions do not own or delete bills. A rejected claim leaves its bill in the ledger and records an unresolved attempt, permitting a corrected policy or SelfPay retry. The demonstration promises in-process retention, not crash-resistant database durability.
 
-See [UML](diagrams/hierarchy.md) and [structured pseudocode](pseudocode.md). Implementation will follow in PartB/TaskB1 after Part A is completed.
+See [UML](diagrams/hierarchy.md) and [structured pseudocode](pseudocode.md). The implemented design and its validation are in [B1](../../PartB/TaskB1/explanation.md).
 
 ## Illustrative pre-implementation calculations
 

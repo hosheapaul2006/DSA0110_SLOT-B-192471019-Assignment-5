@@ -1,0 +1,23 @@
+{
+  "base_source": "PartB/TaskB2/experiments/throw_copy_exact.cpp",
+  "submitted_source": "PartB/TaskB2/experiments/throw_copy_exact.cpp",
+  "task_folder": "PartB/TaskB2",
+  "local_stdout": "PartB/TaskB2/outputs/experiments_throw_copy_exact_actual.txt",
+  "output_stem": "experiments_throw_copy_exact",
+  "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations",
+  "submitted_sha256": "4a2b5ebf0ad6be20d4f7869d65db01ade072dce295d06d5a3221f560cab516b9",
+  "base_sha256": "4a2b5ebf0ad6be20d4f7869d65db01ade072dce295d06d5a3221f560cab516b9",
+  "captured_utc": "2026-11-12T15:55:38.533Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "MATCH_WITH_ADDITIONAL_PROGRAMIZ_MARKER",
+  "actual_output_sha256": "508236aa2be052d9cc6d8c328754b10b8de9befaaaae01cc93adc30c7b3f8600",
+  "comparison_policy": "Exact fixed stdout; sizeof/alignof/requested payload values and trailing Programiz whitespace/banner may differ. Standalone ERROR! is preserved and explicitly disclosed.",
+  "platform_annotation": "Actual online console includes extra ERROR! line absent from exact source and local stdout; matching program text after removing this standalone UI marker. Raw evidence retained.",
+  "screenshots": [
+    {
+      "path": "PartB/TaskB2/screenshots/experiments_throw_copy_exact_programiz.jpg",
+      "sha256": "937c473e3167590c851c9a2616aff6e537f93b2f1e3ab9e20b07c6c8a4697a42",
+      "view": "Source driver and actual output"
+    }
+  ]
+}

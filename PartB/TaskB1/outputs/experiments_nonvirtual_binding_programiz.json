@@ -1,0 +1,27 @@
+{
+  "base_source": "PartB/TaskB1/experiments/nonvirtual_binding.cpp",
+  "submitted_source": "PartB/TaskB1/experiments/nonvirtual_binding.cpp",
+  "task_folder": "PartB/TaskB1",
+  "local_stdout": "PartB/TaskB1/outputs/experiments_nonvirtual_binding_actual.txt",
+  "output_stem": "experiments_nonvirtual_binding",
+  "comparison": "Exact fixed stdout; sizeof/alignof/requested-payload numbers are explicit platform observations",
+  "submitted_sha256": "57157842ad4c37271c2032a4286669f8de9fb61608883d0f2ee64858455a7d7e",
+  "base_sha256": "57157842ad4c37271c2032a4286669f8de9fb61608883d0f2ee64858455a7d7e",
+  "captured_utc": "2026-11-12T15:49:11.210Z",
+  "url": "https://www.programiz.com/cpp-programming/online-compiler/",
+  "status": "PASS",
+  "actual_output_sha256": "d9564d4e15b5484ea23f3c5a08c63830f3e9868cfaee3af7bf3a9e51ce67fa70",
+  "comparison_policy": "Exact fixed stdout, allowing only platform-dependent sizeof/alignof/requested payload values and trailing Programiz success banner/whitespace",
+  "screenshots": [
+    {
+      "path": "PartB/TaskB1/screenshots/experiments_nonvirtual_binding_programiz.jpg",
+      "sha256": "0996148258877daab55cf6d73059476c6f72bf5f5c5387360f537aaf161a8cf5",
+      "view": "Driver/end of source and actual output"
+    },
+    {
+      "path": "PartB/TaskB1/screenshots/experiments_nonvirtual_binding_source_top.jpg",
+      "sha256": "8b1e6f6b6365e359d6cf5ce5be24c107b9e30b3de31671f74f1d9d19df380a8f",
+      "view": "Base total is genuinely nonvirtual; the actual zero totals remain visible"
+    }
+  ]
+}

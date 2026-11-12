@@ -1,0 +1,4 @@
+Exact catch throw;: DetailedClaimError retained
+Exact catch throw e: DetailedClaimError retained
+Base catch throw;: DetailedClaimError retained
+Base catch throw e: ClaimError copy; derived detail sliced
