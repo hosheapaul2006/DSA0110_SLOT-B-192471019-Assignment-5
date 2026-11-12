@@ -90,7 +90,7 @@ Created from all 16 PDF pages and the current user prompt before implementation.
 | G.05 | Native high-resolution readable screenshots reviewed individually and indexed per task | [verified evidence audit](Reference/final_audit.json), [README](README.md), task-local screenshot indexes | PASS |
 | G.06 | At least nine meaningful progressive task commits and actual Git identity | [verified evidence audit](Reference/final_audit.json), [README](README.md), task-local screenshot indexes | PASS |
 | G.07 | README complete task navigation exact build/run/test/sanitizer/benchmark instructions | [verified evidence audit](Reference/final_audit.json), [README](README.md), task-local screenshot indexes | PASS |
-| G.08 | All files pushed main clean and local/remote contents verified | Final publication verification follows the evidence commit | PENDING |
+| G.08 | All files pushed main clean and local/remote contents verified | [441 Git blob paths and IDs matched GitHub main](Reference/publication_verified.json); publication verified at evidence commit 140ec01 | PASS |
 | G.09 | No report; supplied PDF report wording explicitly superseded by user instruction | [verified evidence audit](Reference/final_audit.json), [README](README.md), task-local screenshot indexes | PASS |
 | G.10 | Existing repository naming discrepancy flagged without renaming | [verified evidence audit](Reference/final_audit.json), [README](README.md), task-local screenshot indexes | PASS |
 | G.11 | Official SIMATS pseudocode guide unavailable; user-approved structured fallback disclosed | [verified evidence audit](Reference/final_audit.json), [README](README.md), task-local screenshot indexes | PASS |
