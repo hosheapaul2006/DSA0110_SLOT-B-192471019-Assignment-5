@@ -29,12 +29,12 @@ Created from all 16 PDF pages and the current user prompt before implementation.
 | A3.05 | Payer UML hierarchy and structured pseudocode | [policy design and alternatives](PartA/TaskA3/design.md), [UML](PartA/TaskA3/diagrams/hierarchy.md), [pseudocode](PartA/TaskA3/pseudocode.md) | PASS |
 | A3.06 | Function-pointer/std::function alternatives with state-storage examples | [policy design and alternatives](PartA/TaskA3/design.md), [UML](PartA/TaskA3/diagrams/hierarchy.md), [pseudocode](PartA/TaskA3/pseudocode.md) | PASS |
 | A3.07 | O(1) fixed-policy invocation storage captured state and extensibility comparison | [policy design and alternatives](PartA/TaskA3/design.md), [UML](PartA/TaskA3/diagrams/hierarchy.md), [pseudocode](PartA/TaskA3/pseudocode.md) | PASS |
-| A4.01 | Negative/invalid charges claim-above-cover unknown-package missing-patient allocation errors | PartA/TaskA4/ | PENDING |
-| A4.02 | Exception hierarchy derived from std::exception with meaningful messages | PartA/TaskA4/ | PENDING |
-| A4.03 | Throwing versus noexcept functions table and justified contracts | PartA/TaskA4/ | PENDING |
-| A4.04 | Destructors and stack-unwinding no-throw rationale | PartA/TaskA4/ | PENDING |
-| A4.05 | Role of invalid_argument out_of_range bad_alloc | PartA/TaskA4/ | PENDING |
-| A4.06 | Status-code/bool alternative and normal/error-path time/space/propagation analysis | PartA/TaskA4/ | PENDING |
+| A4.01 | Negative/invalid charges claim-above-cover unknown-package missing-patient allocation errors | [exception contracts and alternatives](PartA/TaskA4/exception_strategy.md), [hierarchy](PartA/TaskA4/diagrams/exception_hierarchy.md) | PASS |
+| A4.02 | Exception hierarchy derived from std::exception with meaningful messages | [exception contracts and alternatives](PartA/TaskA4/exception_strategy.md), [hierarchy](PartA/TaskA4/diagrams/exception_hierarchy.md) | PASS |
+| A4.03 | Throwing versus noexcept functions table and justified contracts | [exception contracts and alternatives](PartA/TaskA4/exception_strategy.md), [hierarchy](PartA/TaskA4/diagrams/exception_hierarchy.md) | PASS |
+| A4.04 | Destructors and stack-unwinding no-throw rationale | [exception contracts and alternatives](PartA/TaskA4/exception_strategy.md), [hierarchy](PartA/TaskA4/diagrams/exception_hierarchy.md) | PASS |
+| A4.05 | Role of invalid_argument out_of_range bad_alloc | [exception contracts and alternatives](PartA/TaskA4/exception_strategy.md), [hierarchy](PartA/TaskA4/diagrams/exception_hierarchy.md) | PASS |
+| A4.06 | Status-code/bool alternative and normal/error-path time/space/propagation analysis | [exception contracts and alternatives](PartA/TaskA4/exception_strategy.md), [hierarchy](PartA/TaskA4/diagrams/exception_hierarchy.md) | PASS |
 | A5.01 | Validation catch/log/rethrow/final-report boundaries and genuine recovery plan | PartA/TaskA5/ | PENDING |
 | A5.02 | RAII stack unwinding unique_ptr file and memory resource safety | PartA/TaskA5/ | PENDING |
 | A5.03 | Exact supplied Guard source and prediction committed before execution | PartA/TaskA5/ | PENDING |
