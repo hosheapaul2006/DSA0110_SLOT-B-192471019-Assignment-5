@@ -6,12 +6,12 @@ Created from all 16 PDF pages and the current user prompt before implementation.
 
 | Task/ID | Requirement | Source/evidence/screenshot | Status |
 |---|---|---|---|
-| A1.01 | Common patient/bill identity and total/type/print/destruction contract | PartA/TaskA1/ | PENDING |
-| A1.02 | Abstract Bill and four bill categories; charges correctly modeled | PartA/TaskA1/ | PENDING |
-| A1.03 | UML marks pure/virtual/overridden methods and virtual destruction | PartA/TaskA1/ | PENDING |
-| A1.04 | Pseudocode totals array of Bill pointers using runtime dispatch | PartA/TaskA1/ | PENDING |
-| A1.05 | Switch/type-code alternative code or pseudocode | PartA/TaskA1/ | PENDING |
-| A1.06 | O(n) processing per-object storage and extension-change analysis | PartA/TaskA1/ | PENDING |
+| A1.01 | Common patient/bill identity and total/type/print/destruction contract | [design](PartA/TaskA1/design.md), [UML](PartA/TaskA1/diagrams/hierarchy.md), [pseudocode](PartA/TaskA1/pseudocode.md) | PASS |
+| A1.02 | Abstract Bill and four bill categories; charges correctly modeled | [design](PartA/TaskA1/design.md), [UML](PartA/TaskA1/diagrams/hierarchy.md), [pseudocode](PartA/TaskA1/pseudocode.md) | PASS |
+| A1.03 | UML marks pure/virtual/overridden methods and virtual destruction | [design](PartA/TaskA1/design.md), [UML](PartA/TaskA1/diagrams/hierarchy.md), [pseudocode](PartA/TaskA1/pseudocode.md) | PASS |
+| A1.04 | Pseudocode totals array of Bill pointers using runtime dispatch | [design](PartA/TaskA1/design.md), [UML](PartA/TaskA1/diagrams/hierarchy.md), [pseudocode](PartA/TaskA1/pseudocode.md) | PASS |
+| A1.05 | Switch/type-code alternative code or pseudocode | [design](PartA/TaskA1/design.md), [UML](PartA/TaskA1/diagrams/hierarchy.md), [pseudocode](PartA/TaskA1/pseudocode.md) | PASS |
+| A1.06 | O(n) processing per-object storage and extension-change analysis | [design](PartA/TaskA1/design.md), [UML](PartA/TaskA1/diagrams/hierarchy.md), [pseudocode](PartA/TaskA1/pseudocode.md) | PASS |
 | A2.01 | Early/static versus late/dynamic binding through Bill pointer | PartA/TaskA2/ | PENDING |
 | A2.02 | Conceptual vtable diagrams Bill OP IP with dispatch route | PartA/TaskA2/ | PENDING |
 | A2.03 | Vtables explicitly described as implementation technique, not mandated layout | PartA/TaskA2/ | PENDING |
