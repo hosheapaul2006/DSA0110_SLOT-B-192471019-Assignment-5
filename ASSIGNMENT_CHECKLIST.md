@@ -22,13 +22,13 @@ Created from all 16 PDF pages and the current user prompt before implementation.
 | A2.08 | Retained destructor override actual compile error; controlled runnable UB variant disclosed | [analysis](PartA/TaskA2/explanation.md), [vtables](PartA/TaskA2/diagrams/conceptual_vtables.md), [tests](PartA/TaskA2/test_cases.md) | PASS |
 | A2.09 | Actual ASan observation; silent UB never called safe | PartA/TaskA2/ | PENDING |
 | A2.10 | dynamic_cast alternative and up-to-k type testing/time/space comparison | [analysis](PartA/TaskA2/explanation.md), [vtables](PartA/TaskA2/diagrams/conceptual_vtables.md), [tests](PartA/TaskA2/test_cases.md) | PASS |
-| A3.01 | Abstract Payer amountCovered(const Bill&) interface and responsibilities | PartA/TaskA3/ | PENDING |
-| A3.02 | SelfPay Insurance GovernmentScheme policy data and documented semantics | PartA/TaskA3/ | PENDING |
-| A3.03 | Coverage limit co-payment patient contribution and rejection handling | PartA/TaskA3/ | PENDING |
-| A3.04 | CorporatePayer extension path without editing existing payer classes | PartA/TaskA3/ | PENDING |
-| A3.05 | Payer UML hierarchy and structured pseudocode | PartA/TaskA3/ | PENDING |
-| A3.06 | Function-pointer/std::function alternatives with state-storage examples | PartA/TaskA3/ | PENDING |
-| A3.07 | O(1) fixed-policy invocation storage captured state and extensibility comparison | PartA/TaskA3/ | PENDING |
+| A3.01 | Abstract Payer amountCovered(const Bill&) interface and responsibilities | [policy design and alternatives](PartA/TaskA3/design.md), [UML](PartA/TaskA3/diagrams/hierarchy.md), [pseudocode](PartA/TaskA3/pseudocode.md) | PASS |
+| A3.02 | SelfPay Insurance GovernmentScheme policy data and documented semantics | [policy design and alternatives](PartA/TaskA3/design.md), [UML](PartA/TaskA3/diagrams/hierarchy.md), [pseudocode](PartA/TaskA3/pseudocode.md) | PASS |
+| A3.03 | Coverage limit co-payment patient contribution and rejection handling | [policy design and alternatives](PartA/TaskA3/design.md), [UML](PartA/TaskA3/diagrams/hierarchy.md), [pseudocode](PartA/TaskA3/pseudocode.md) | PASS |
+| A3.04 | CorporatePayer extension path without editing existing payer classes | [policy design and alternatives](PartA/TaskA3/design.md), [UML](PartA/TaskA3/diagrams/hierarchy.md), [pseudocode](PartA/TaskA3/pseudocode.md) | PASS |
+| A3.05 | Payer UML hierarchy and structured pseudocode | [policy design and alternatives](PartA/TaskA3/design.md), [UML](PartA/TaskA3/diagrams/hierarchy.md), [pseudocode](PartA/TaskA3/pseudocode.md) | PASS |
+| A3.06 | Function-pointer/std::function alternatives with state-storage examples | [policy design and alternatives](PartA/TaskA3/design.md), [UML](PartA/TaskA3/diagrams/hierarchy.md), [pseudocode](PartA/TaskA3/pseudocode.md) | PASS |
+| A3.07 | O(1) fixed-policy invocation storage captured state and extensibility comparison | [policy design and alternatives](PartA/TaskA3/design.md), [UML](PartA/TaskA3/diagrams/hierarchy.md), [pseudocode](PartA/TaskA3/pseudocode.md) | PASS |
 | A4.01 | Negative/invalid charges claim-above-cover unknown-package missing-patient allocation errors | PartA/TaskA4/ | PENDING |
 | A4.02 | Exception hierarchy derived from std::exception with meaningful messages | PartA/TaskA4/ | PENDING |
 | A4.03 | Throwing versus noexcept functions table and justified contracts | PartA/TaskA4/ | PENDING |
